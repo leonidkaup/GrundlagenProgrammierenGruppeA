@@ -88,3 +88,6 @@ pytest
 The project is developed collaboratively using Git and GitHub. Features and requirements are tracked using GitHub Issues and User Stories with Acceptance Criteria.
 
 ## Authors
+# GrundlagenProgrammierenGruppeA
+Diese Programm soll am Schluss ein persönlicher Verwalter für Filmdaten sein.
+-  Filme sollen Bewertet werden können und nach spezifischen Kriterien gefiltert und Ausgegeben werden
