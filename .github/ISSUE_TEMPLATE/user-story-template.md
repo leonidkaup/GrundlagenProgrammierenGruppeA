@@ -12,5 +12,6 @@ I want to [Capability]
 so that [Benefit]
 
 AC:
-i.
-ii.
+i. - [ ]
+ii. - [ ]
+iii. - [ ]
