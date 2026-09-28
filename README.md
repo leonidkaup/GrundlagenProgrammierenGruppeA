@@ -1,5 +1,14 @@
 # GrundlagenProgrammierenGruppeA
 
+# 1 - Setup Project
+
+1.1 - Clone Repository
+
+1.1 - Run project
+Windows: python main.py
+Mac: python3 main.py
+
+
 # Objekte 
 
 Film (Id: int, String: Titel, ErscheiningsDatum: String/DateYear, Genre: Set, Rating: Float, Beschreibung: String, Contributors: [Person], watchDate:String/DateYear)
