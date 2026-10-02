@@ -1,6 +1,6 @@
 # Rate my movies
 
-TODO: Description
+This Python console application provides an easy way to manage a list of movies that you want to watch or have watched and want to rate. A dedicated search and filter mechanism allows you to get an overview of the films you need. You will also have the possibility to share your lists with others.
 
 ## Features
 
