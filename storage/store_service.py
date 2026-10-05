@@ -36,12 +36,11 @@ def json_exists():
         return False
 
     try:
-        with FILMS_FILE.open("r", encoding="utf-8") as file:
-            films = json.load(file)
+        films = get_all_films()
         if not isinstance(films, list):
-            raise TypeError("Film data must be stored in a list")
-        for film in films:
-            Film.from_dict(film)
+            raise TypeError
+        for data in films:
+            Film.from_dict(data)
     except (json.JSONDecodeError, KeyError, TypeError):
         print("The JSON data structure does not match the Film model.")
         raise SystemExit(1)

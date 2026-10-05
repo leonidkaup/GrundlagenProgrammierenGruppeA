@@ -3,7 +3,7 @@
 from datetime import datetime
 
 from models.film_model import Film
-from storage.store_service import get_all_films, store_film
+from storage.store_service import store_film
 
 
 # writes a new film to the JSON file

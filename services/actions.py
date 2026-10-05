@@ -1,5 +1,4 @@
 from services import film_service
-from storage import store_service
 
 # All possible actions and their descriptions
 ACTIONS = {
@@ -16,20 +15,13 @@ ACTIONS = {
 # handles action and redirects to the appropriate service function
 def handle_action(action):
     if action == "help":
-        for action, description in ACTIONS.items():
-            print(f"{action}: {description}")
-        return
-
-    service_action = getattr(film_service, action, None)
-    if callable(service_action):
-        return service_action()
-
-    service_action = getattr(store_service, action, None)
-    if callable(service_action):
-        return service_action()
-
-    if action in ACTIONS:
-        print(f"Action is not implemented: {action}")
-        return
-
-    print(f"Unknown action: {action}")
+        for name, description in ACTIONS.items():
+            print(f"{name}: {description}")
+    elif action in ACTIONS:
+        service_action = getattr(film_service, action, None)
+        if callable(service_action):
+            service_action()
+        else:
+            print(f"Action is not implemented: {action}")
+    else:
+        print(f"Unknown action: {action}")
