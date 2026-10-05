@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+from models.film_model import Film
+
 FILMS_FILE = Path(__file__).resolve().with_name("films.json")
 
 
@@ -11,8 +13,6 @@ def get_all_films():
 
     with FILMS_FILE.open("r", encoding="utf-8") as file:
         films = json.load(file)
-    if not isinstance(films, list):
-        raise ValueError("The films JSON file must contain a list")
     return films
 
 
@@ -28,14 +28,23 @@ def store_film(film):
 
 # Check if the JSON file exists
 def json_exists():
-    file_path = Path("storage/films.json")
-
-    if file_path.is_file():
-        print("JSON exists")
-        return True
-    else:
+    if not FILMS_FILE.is_file():
         print(
             "JSON does not exist - either import a json-file "
             "or create a new film"
         )
         return False
+
+    try:
+        with FILMS_FILE.open("r", encoding="utf-8") as file:
+            films = json.load(file)
+        if not isinstance(films, list):
+            raise TypeError("Film data must be stored in a list")
+        for film in films:
+            Film.from_dict(film)
+    except (json.JSONDecodeError, KeyError, TypeError):
+        print("The JSON data structure does not match the Film model.")
+        raise SystemExit(1)
+
+    print("JSON exists")
+    return True
