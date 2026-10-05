@@ -11,6 +11,7 @@ This Python console application provides an easy way to manage a list of movies 
 - Léon Albert
 
 ## Features
+Our features are listed in GitHub as issues. They're created as user-stories.
 
 - Create new movies
 - View the movie collection
