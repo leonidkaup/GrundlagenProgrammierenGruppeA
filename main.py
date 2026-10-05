@@ -13,5 +13,7 @@ else:
 # While actions is not "end", user gets asked to input action
 while True:
     action = input(prompt)
+    if action == "end":
+        break
     handle_action(action)
     prompt = "What do you want to do? (type \"help\" for commands): "
