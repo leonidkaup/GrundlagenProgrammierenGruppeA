@@ -4,7 +4,7 @@ from storage import store_service
 # All possible actions and their descriptions
 ACTIONS = {
     "new_film": "Create and save a film.",
-    "list_films": "Display saved films.",
+    "list_films": "Display saved films (not implemented yet).",
     "update_film": "Update a film (not implemented yet).",
     "delete_film": "Delete a film (not implemented yet).",
     "import_file": "Import films from a file (not implemented yet).",
