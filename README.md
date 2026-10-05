@@ -5,6 +5,11 @@ This program is intended to become a personal movie manager. Movies should be ab
 
 This Python console application provides an easy way to manage a list of movies that you want to watch or have watched and want to rate. A dedicated search and filter mechanism allows you to get an overview of the films you need. You will also have the possibility to share your lists with others.
 
+## Authors
+- Leonit Kaup
+- Jonathan Engel
+- Léon Albert
+
 ## Features
 
 - Create new movies
@@ -84,8 +89,3 @@ User input and data loaded from files are validated before being processed. Inva
 ## Development
 
 The project is developed collaboratively using Git and GitHub. Features and requirements are tracked using GitHub Issues and User Stories with Acceptance Criteria.
-
-## Authors
-- Leonit Kaup
-- Jonathan Engel
-- Léon Albert
