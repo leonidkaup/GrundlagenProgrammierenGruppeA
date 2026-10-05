@@ -1,6 +1,7 @@
 from storage.store_service import json_exists
 from services.actions import handle_action
 
+
 # gets called when starting project
 print("Welcome to the film rating tool")
 

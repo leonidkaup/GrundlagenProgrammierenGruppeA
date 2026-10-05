@@ -3,23 +3,24 @@
 from models.film_model import Film
 from storage.store_service import get_all_films, store_film
 
+
 # writes a new film to the JSON file
 def new_film():
-	film = Film(
-		title=input("Titel: "),
-		date_of_release=input("Date of release: "),
-		genre=input("Genre: "),
-		rating=_read_rating(),
-		description=input("Description: "),
-		actors=[
-			actor.strip()
-			for actor in input("Actors (comma-separated): ").split(",")
-			if actor.strip()
-		],
-		watch_date=input("Watch date: "),
-	)
-	store_film(film.to_dict())
-	print("Film saved.")
+    film = Film(
+        title=input("Titel: "),
+        date_of_release=input("Date of release: "),
+        genre=input("Genre: "),
+        rating=_read_rating(),
+        description=input("Description: "),
+        actors=[
+            actor.strip()
+            for actor in input("Actors (comma-separated): ").split(",")
+            if actor.strip()
+        ],
+        watch_date=input("Watch date: "),
+    )
+    store_film(film.to_dict())
+    print("Film saved.")
 
 # TODO: get_film()
 # TODO: get_all_films()
