@@ -1,3 +1,6 @@
+# GrundlagenProgrammierenGruppeA
+This program is intended to become a personal movie manager. Movies should be able to be rated and filtered and displayed according to specific criteria.
+
 # Rate my movies
 
 This Python console application provides an easy way to manage a list of movies that you want to watch or have watched and want to rate. A dedicated search and filter mechanism allows you to get an overview of the films you need. You will also have the possibility to share your lists with others.
@@ -45,19 +48,24 @@ python main.py
 
 The application is controlled through an interactive console menu.
 
+## Syntax
+- Variables and functions: lowercase_with_underscores
+- Classes: CamelCase
+- Constants: UPPERCASE_WITH_UNDERSCORES
+- Catch the most specific exceptions possible; avoid 'except:' without type
+
 ## Project Structure
 
 ```text
 project/
 ├── main.py
-├── requirements.txt
 ├── README.md
-├── src/
+├── models/
 │   ├── ...
 │   └── ...
-├── data/
+├── services/
 │   └── ...
-└── tests/
+└── storage/
     └── ...
 ```
 
@@ -73,21 +81,11 @@ The application also supports importing and exporting movie data.
 
 User input and data loaded from files are validated before being processed. Invalid input is handled without unexpectedly terminating the application.
 
-## Testing
-
-Automated tests are used to verify important application functionality.
-
-Tests can be executed with:
-
-```bash
-pytest
-```
-
 ## Development
 
 The project is developed collaboratively using Git and GitHub. Features and requirements are tracked using GitHub Issues and User Stories with Acceptance Criteria.
 
 ## Authors
-# GrundlagenProgrammierenGruppeA
-Diese Programm soll am Schluss ein persönlicher Verwalter für Filmdaten sein.
--  Filme sollen Bewertet werden können und nach spezifischen Kriterien gefiltert und Ausgegeben werden
+- Leonit Kaup
+- Jonathan Engel
+- Léon Albert
