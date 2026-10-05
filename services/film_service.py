@@ -1,6 +1,25 @@
 # All services/functions related to films
 
-# TODO: add_film()
+from storage.store_service import get_all_films, store_film
+
+
+def new_film():
+	film = {
+		"titel": input("Titel: "),
+		"dateOfRelease": input("Date of release: "),
+		"genre": input("Genre: "),
+		"rating": _read_rating(),
+		"description": input("Description: "),
+		"actors": [
+			actor.strip()
+			for actor in input("Actors (comma-separated): ").split(",")
+			if actor.strip()
+		],
+		"watchdate": input("Watch date: "),
+	}
+	store_film(film)
+	print("Film saved.")
+
 # TODO: get_film()
 # TODO: get_all_films()
 # TODO: update_film()
