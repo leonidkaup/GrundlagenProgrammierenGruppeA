@@ -1,0 +1,29 @@
+[
+  {
+    "titel": "Film1",
+    "dateOfRelease": "01.01.2022",
+    "genre": "Action",
+    "rating": 8.0,
+    "description": "Cooler Film",
+    "actors": [
+      "Brad Pitt",
+      "Actor2",
+      "Actor 3"
+    ],
+    "watchdate": "02.10.2026"
+  },
+  {
+    "titel": "Harry Potter",
+    "dateOfRelease": "01.01.2000",
+    "genre": "Magic",
+    "rating": 4.0,
+    "description": "Cool",
+    "actors": [
+      "Actor1",
+      "2",
+      "3",
+      "4"
+    ],
+    "watchdate": "01.01.2026"
+  }
+]
