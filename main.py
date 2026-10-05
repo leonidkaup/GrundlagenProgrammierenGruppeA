@@ -1,15 +1,16 @@
-from storage.store_service import csv_exists
+from storage.store_service import json_exists
 from services.actions import handle_action
-
-action = ""
 
 # gets called when starting project
 print("Welcome to the film rating tool")
 
-# TODO: Look for csv-file. If none is there, ask user for import or new film
-if csv_exists():
-    action = input("What do you want to do? (type \"help\" for commands): ")
+if json_exists():
+    prompt = "What do you want to do? (type \"help\" for commands): "
 else:
-    action = input("What do you want to do? (\"import_file\"/\"new_film\"): ")
+    prompt = "What do you want to do? (\"import_file\"/\"new_film\"): "
 
-handle_action(action)
+# While actions is not "end", user gets asked to input action
+while True:
+    action = input(prompt)
+    handle_action(action)
+    prompt = "What do you want to do? (type \"help\" for commands): "
