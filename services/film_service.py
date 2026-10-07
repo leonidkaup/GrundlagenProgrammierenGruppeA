@@ -4,6 +4,10 @@ from datetime import datetime
 
 from models.film_model import Film
 from storage.store_service import store_film
+from storage.store_service import get_films_from_json
+from pathlib import Path
+
+from tkinter import filedialog
 
 
 # writes a new film to the JSON file
@@ -51,12 +55,31 @@ def _read_rating():
             continue
         return rating
 
+#import films from a .json file
+def import_file():
+
+    print("Please select a .json File you want to import.")
+
+    #filepicker
+    import_file_path = filedialog.askopenfilename(
+        title="Select a File",
+        filetypes=[("All files", "*.json")]
+    )
+
+    #load films to json TODO: Try Catch
+    imported_films = get_films_from_json(Path(import_file_path))
+
+    #add each film to current list and persist
+    if (imported_films):
+        for film in imported_films:
+            store_film(film)
+
+    print("Import was successfull!")
 
 # TODO: get_film()
 # TODO: get_all_films()
 # TODO: update_film()
 # TODO: delete_film()
-# TODO: import_film()
 # TODO: rate_film()
 # TODO: search_films()
 # TODO: top_films()
