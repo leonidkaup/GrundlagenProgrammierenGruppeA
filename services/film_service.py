@@ -244,9 +244,27 @@ def _print_film(film):
     print(f"Watch date: {film.watch_date}")
 
 
+# removes a film from the list after the user confirmed it
+def delete_film():
+    films = _load_films()
+    if films is None:
+        return
+    index = _select_film(films, "delete")
+    if index is None:
+        return
+
+    film = films[index]
+    if not _confirm(f"Really delete \"{film.title}\"?"):
+        print("Deletion cancelled.")
+        return
+
+    films.pop(index)
+    if _save_films(films):
+        print(f"\"{film.title}\" has been deleted.")
+
+
 # TODO: get_film()
 # TODO: get_all_films()
-# TODO: delete_film()
 # TODO: search_films()
 # TODO: top_films()
 # TODO: films_by_genre()
