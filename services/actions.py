@@ -4,6 +4,7 @@ from services import film_service
 ACTIONS = {
     "new_film": "Create and save a film.",
     "list_films": "Display saved films (not implemented yet).",
+    "rate_film": "Rate a film and save the watch date.",
     "update_film": "Update a film (not implemented yet).",
     "delete_film": "Delete a film (not implemented yet).",
     "import_file": "Import films from a file (not implemented yet).",
