@@ -162,9 +162,90 @@ def _confirm(question):
     return answer == "y"
 
 
+# changes the data of an existing film, rating and watch date are changed by rate_film
+def update_film():
+    films = _load_films()
+    if films is None:
+        return
+    index = _select_film(films, "update")
+    if index is None:
+        return
+
+    old_film = films[index]
+    print("Press Enter to keep the value shown in [brackets].")
+    updated_film = Film(
+        title=_read_title_or_keep(old_film.title, films, index),
+        date_of_release=_read_date_or_keep("Date of release (dd.mm.yyyy)", old_film.date_of_release),
+        genre=_read_text_or_keep("Genre", old_film.genre),
+        rating=old_film.rating,
+        description=_read_text_or_keep("Description", old_film.description),
+        actors=_read_actors_or_keep(old_film.actors),
+        watch_date=old_film.watch_date,
+    )
+
+    print("\nPreview:")
+    _print_film(updated_film)
+    if not _confirm("Save changes?"):
+        print("Changes discarded.")
+        return
+
+    films[index] = updated_film
+    if _save_films(films):
+        print(f"\"{updated_film.title}\" has been updated.")
+
+
+def _read_text_or_keep(prompt, current):
+    text = input(f"{prompt} [{current}]: ").strip()
+
+    if text == "":
+        return current
+    return text
+
+# the title must not be used by another film in the list
+def _read_title_or_keep(current, films, index):
+    while True:
+        title = _read_text_or_keep("Titel", current)
+        duplicate = False
+
+        for number, film in enumerate(films):
+            if number != index and film.title.lower() == title.lower():
+                duplicate = True
+
+        if duplicate:
+            print(f"A film called \"{title}\" already exists.")
+            continue
+        return title
+
+def _read_date_or_keep(prompt, current):
+    while True:
+        date_text = input(f"{prompt} [{current}]: ").strip()
+
+        if date_text == "":
+            return current
+        if validate_date(date_text):
+            return date_text
+        else:
+            print("Please enter a valid date in dd.mm.yyyy format.")
+
+def _read_actors_or_keep(current):
+    actors_text = input(f"Actors (comma-separated) [{', '.join(current)}]: ").strip()
+
+    if actors_text == "":
+        return current
+    return [actor.strip() for actor in actors_text.split(",") if actor.strip()]
+
+def _print_film(film):
+    print(f"Titel: {film.title}")
+    print(f"Date of release: {film.date_of_release}")
+    print(f"Genre: {film.genre}")
+    print(f"Rating: {film.rating}")
+    print(f"Description: {film.description}")
+    print(f"Actors: {', '.join(film.actors)}")
+    print(f"Watch date: {film.watch_date}")
+
+
 # TODO: get_film()
 # TODO: get_all_films()
-# TODO: update_film()
 # TODO: delete_film()
 # TODO: search_films()
 # TODO: top_films()
