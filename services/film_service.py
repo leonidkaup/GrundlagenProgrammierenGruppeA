@@ -1,6 +1,8 @@
 # All services/functions related to films
 
 from datetime import datetime
+from utils.helper import validate_date
+import json
 
 from models.film_model import Film
 from storage.store_service import store_film
@@ -32,14 +34,11 @@ def new_film():
 def _read_date(prompt):
     while True:
         date_text = input(prompt)
-        try:
-            parsed_date = datetime.strptime(date_text, "%d.%m.%Y")
-            if parsed_date.strftime("%d.%m.%Y") == date_text:
-                return date_text
-        except ValueError:
-            pass
-        print("Please enter a valid date in dd.mm.yyyy format.")
 
+        if validate_date(date_text):
+            return date_text
+        else:
+            print("Please enter a valid date in dd.mm.yyyy format.")
 
 def _read_rating():
     while True:
@@ -57,24 +56,33 @@ def _read_rating():
 
 #import films from a .json file
 def import_file():
+    try:
+        print("Please select a .json File you want to import.")
 
-    print("Please select a .json File you want to import.")
+        #filepicker
+        import_file_path = filedialog.askopenfilename(
+            title="Select a File",
+            filetypes=[("All files", "*.json")]
+        )
+        # call file import
+        imported_films = get_films_from_json(Path(import_file_path))
 
-    #filepicker
-    import_file_path = filedialog.askopenfilename(
-        title="Select a File",
-        filetypes=[("All files", "*.json")]
-    )
-
-    #load films to json TODO: Try Catch
-    imported_films = get_films_from_json(Path(import_file_path))
-
-    #add each film to current list and persist
-    if (imported_films):
+        if not isinstance(imported_films, list):
+            raise TypeError
         for film in imported_films:
-            store_film(film)
+            #validation - if it fails it throws an Error that gets catched 
+            Film.from_dict(film)
 
-    print("Import was successfull!")
+            #add each film to current list and persist
+        if (imported_films):
+            for film in imported_films:
+                store_film(film)
+
+        print("Import was successfull!")
+
+    except (json.JSONDecodeError, KeyError, TypeError, PermissionError, ValueError) as error:
+            print(f"Import was not successfull: {error}")
+            return
 
 # TODO: get_film()
 # TODO: get_all_films()

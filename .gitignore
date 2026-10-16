@@ -1,1 +1,11 @@
 user-stories/*
+models/__pycache__/__init__.cpython-314.pyc
+.gitignore
+models/__pycache__/film_model.cpython-314.pyc
+services/__pycache__/__init__.cpython-314.pyc
+services/__pycache__/actions.cpython-314.pyc
+services/__pycache__/film_service.cpython-314.pyc
+storage/films.json
+storage/__pycache__/__init__.cpython-314.pyc
+storage/__pycache__/__init__.cpython-314.pyc
+storage/__pycache__/store_service.cpython-314.pyc
