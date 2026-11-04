@@ -6,24 +6,31 @@ from models.film_model import Film
 FILMS_FILE = Path(__file__).resolve().with_name("films.json")
 
 
-# get films from persistent JSON-file
-def get_all_films():
-    if not FILMS_FILE.exists():
+# get films from the defined persistent JSON-file
+def get_all_persisted_films():
+    return get_films_from_json(FILMS_FILE)
+
+# get films from a json file in general
+def get_films_from_json(file):
+    if not file.exists():
         return []
 
-    with FILMS_FILE.open("r", encoding="utf-8") as file:
-        films = json.load(file)
+    with file.open("r", encoding="utf-8") as file:
+            films = json.load(file)
     return films
 
 
-# Store films in persistent JSON-file
-def store_film(film):
-    films = get_all_films()
+# Read persisted films, Append to current list and Store films in persistent JSON-file
+def append_and_store_films(films):
+    persisted_films = get_all_persisted_films()
+    persisted_films.append(films)
+    store_films(persisted_films)
 
-    films.append(film)
+# Store input list of this function in json
+def store_films(films):
     with FILMS_FILE.open("w", encoding="utf-8") as file:
-        json.dump(films, file, indent=2, ensure_ascii=False)
-        file.write("\n")
+            json.dump(films, file, indent=2, ensure_ascii=False)
+            file.write("\n")
 
 
 # Check if the JSON file exists
@@ -36,7 +43,7 @@ def json_exists():
         return False
 
     try:
-        films = get_all_films()
+        films = get_all_persisted_films()
         if not isinstance(films, list):
             raise TypeError
         for data in films:
