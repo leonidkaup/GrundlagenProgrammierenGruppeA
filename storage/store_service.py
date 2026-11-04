@@ -28,7 +28,7 @@ def append_and_store_films(films):
 
 # Store input list of this function in json
 def store_films(films):
-    if films:
+    if films is not None:
         with FILMS_FILE.open("w", encoding="utf-8") as file:
             json.dump(films, file, indent=2, ensure_ascii=False)
             file.write("\n")
@@ -52,8 +52,8 @@ def json_exists():
         for data in films:
             Film.from_dict(data)
     except (json.JSONDecodeError, KeyError, TypeError):
-        print("The JSON data structure does not match the Film model. If you are performing further actions, the current file will be overwritten.")
-        return False
+        print("The persistant JSON data structure does not match the Film model or is corrupted. Please delete the current file to reset it, or fix it manually. If you delete it your data will be lost.")
+        exit()
 
     print("JSON exists")
     return True
