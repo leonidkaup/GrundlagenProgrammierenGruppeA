@@ -8,7 +8,7 @@ print("Welcome to the film rating tool")
 if json_exists():
     prompt = "What do you want to do? (type \"help\" for commands): "
 else:
-    prompt = "What do you want to do? (\"import_file\"/\"new_film\"): "
+    prompt = "What do you want to do? (\"import_file\"/\"new_film\"/\"end\"): "
 
 # While actions is not "end", user gets asked to input action
 while True:

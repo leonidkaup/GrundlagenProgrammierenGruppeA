@@ -28,9 +28,12 @@ def append_and_store_films(films):
 
 # Store input list of this function in json
 def store_films(films):
-    with FILMS_FILE.open("w", encoding="utf-8") as file:
+    if films:
+        with FILMS_FILE.open("w", encoding="utf-8") as file:
             json.dump(films, file, indent=2, ensure_ascii=False)
             file.write("\n")
+    else: 
+        print("An error occured while persiting the films to json. No action taken")
 
 
 # Check if the JSON file exists
@@ -49,8 +52,8 @@ def json_exists():
         for data in films:
             Film.from_dict(data)
     except (json.JSONDecodeError, KeyError, TypeError):
-        print("The JSON data structure does not match the Film model.")
-        raise SystemExit(1)
+        print("The JSON data structure does not match the Film model. If you are performing further actions, the current file will be overwritten.")
+        return False
 
     print("JSON exists")
     return True

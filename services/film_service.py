@@ -6,8 +6,13 @@ import json
 
 from models.film_model import Film
 from storage.store_service import append_and_store_films
-from storage.store_service import get_films_from_json
+from storage.store_service import get_films_from_json, get_all_persisted_films
 from pathlib import Path
+
+from xml.sax.saxutils import escape
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 
 from tkinter import filedialog
 
@@ -83,6 +88,69 @@ def import_file():
     except (json.JSONDecodeError, KeyError, TypeError, PermissionError, ValueError) as error:
             print(f"Import was not successfull: {error}")
             return
+
+
+def export_films():
+    export_option = input("Please type 1 for JSON and 2 for PDF\n").strip()
+    if not (export_option == "1" or export_option == "2"):
+        print("Please selecte a valid option")
+        export_films()
+        return
+
+    persisted_films = get_all_persisted_films()
+
+    ## as json on disred location 
+    if export_option == "1":
+        print("Please select where the JSON export should be saved.", end="\n")
+        export_file_location = filedialog.asksaveasfilename(
+            title="Save film export",
+            defaultextension=".json",
+            filetypes=[("JSON files", "*.json")],
+        )   
+        if not export_file_location:
+            print("Export cancelled.")
+            return
+
+        with open(export_file_location, "w", encoding="utf-8") as file:
+            json.dump(persisted_films, file, indent=2, ensure_ascii=False)
+            file.write("\n")
+
+    ## first pdf gets formatted based on existing data with reportlab and then it gets saved.
+    elif export_option == "2":
+        print("Please select where the PDF export should be saved.")
+        export_file_location = filedialog.asksaveasfilename(
+            title="Save film export",
+            defaultextension=".pdf",
+            filetypes=[("PDF files", "*.pdf")],
+        )   
+        if not export_file_location:
+            print("Export cancelled.")
+            return
+        
+        styles = getSampleStyleSheet()
+        content = [Paragraph("Meine Filmsammlung", styles["Title"]), Spacer(1, 16)]
+
+        for film in persisted_films:
+            actors = ", ".join(film["actors"])
+            rating = film["rating"] if film["rating"] is not None else "Keine Bewertung"
+
+            content.extend([
+                Paragraph(f"<b>{escape(str(film['titel']))}</b>", styles["Heading2"]),
+                Paragraph(f"Genre: {escape(str(film['genre']))}", styles["BodyText"]),
+                Paragraph(f"Erscheinungsdatum: {escape(str(film['dateOfRelease']))}", styles["BodyText"]),
+                Paragraph(f"Bewertung: {escape(str(rating))}", styles["BodyText"]),
+                Paragraph(f"Gesehen am: {escape(str(film['watchdate']))}", styles["BodyText"]),
+                Paragraph(f"Schauspieler: {escape(actors)}", styles["BodyText"]),
+                Paragraph(f"Beschreibung: {escape(str(film['description']))}", styles["BodyText"]),
+                Spacer(1, 12),
+            ])
+
+        pdf = SimpleDocTemplate(export_file_location, pagesize=A4)
+        pdf.build(content)
+        print("PDF export saved successfully.")
+        
+
+
 
 # TODO: get_film()
 # TODO: get_all_films()
