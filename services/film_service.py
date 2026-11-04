@@ -5,7 +5,7 @@ from utils.helper import validate_date
 import json
 
 from models.film_model import Film
-from storage.store_service import store_film
+from storage.store_service import append_and_store_films
 from storage.store_service import get_films_from_json
 from pathlib import Path
 
@@ -27,7 +27,7 @@ def new_film():
         ],
         watch_date=_read_date("Watch date (dd.mm.yyyy): "),
     )
-    store_film(film.to_dict())
+    append_and_store_films(film.to_dict())
     print("Film saved.")
 
 
@@ -76,7 +76,7 @@ def import_file():
             #add each film to current list and persist
         if (imported_films):
             for film in imported_films:
-                store_film(film)
+                append_and_store_films(film)
 
         print("Import was successfull!")
 
