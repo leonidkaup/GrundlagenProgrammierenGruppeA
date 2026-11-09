@@ -6,6 +6,7 @@ from services.actions import handle_action
 print("Welcome to the film rating tool")
 
 def run():
+    #Léon Albert
     if json_exists():
         prompt = "What do you want to do? (type \"help\" for commands): "
         while True:
@@ -14,6 +15,7 @@ def run():
                 break
             handle_action(action)
             prompt = "What do you want to do? (type \"help\" for commands): "
+    #Leonid Kaup
     else:
         prompt = "What do you want to do? (\"import_file\"/\"new_film\"/\"end\"): "
         while True:

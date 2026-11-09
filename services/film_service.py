@@ -18,6 +18,7 @@ from tkinter import filedialog
 
 
 # writes a new film to the JSON file
+# Léon ALbert
 def new_film():
     film = Film(
         title=input("Titel: "),
@@ -35,7 +36,7 @@ def new_film():
     append_and_store_films(film.to_dict())
     print("Film saved.")
 
-
+# Léon ALbert
 def _read_date(prompt):
     while True:
         date_text = input(prompt)
@@ -45,6 +46,7 @@ def _read_date(prompt):
         else:
             print("Please enter a valid date in dd.mm.yyyy format.")
 
+# Léon ALbert
 def _read_rating():
     while True:
         rating_text = input("Rating (1-10): ").strip()
@@ -60,6 +62,7 @@ def _read_rating():
         return rating
 
 #import films from a .json file
+#Leonid Kaup
 def import_file():
     try:
         print("Please select a .json File you want to import.")
@@ -89,7 +92,7 @@ def import_file():
             print(f"Import was not successfull: {error}")
             return
 
-
+#Leonid Kaup
 def export_films():
     ## Check if films are available
     persisted_films = get_all_persisted_films()
@@ -156,7 +159,6 @@ def export_films():
 
             pdf = SimpleDocTemplate(export_file_location, pagesize=A4)
             pdf.build(content)
-            print("PDF export saved successfully.")
             print("Export was Successful!")
         except:
             print("Export was not Successful!")

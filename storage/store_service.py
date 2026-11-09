@@ -7,6 +7,7 @@ FILMS_FILE = Path(__file__).resolve().with_name("films.json")
 
 
 # get films from the defined persistent JSON-file
+# Leonid Kaup
 def get_all_persisted_films():
     return get_films_from_json(FILMS_FILE)
 
@@ -19,12 +20,13 @@ def get_films_from_json(file):
             films = json.load(file)
     return films
 
-
+# Leonid Kaup
 # Read persisted films, Append to current list and Store films in persistent JSON-file
 def append_and_store_films(films):
     persisted_films = get_all_persisted_films()
     persisted_films.append(films)
     store_films(persisted_films)
+
 
 # Store input list of this function in json
 def store_films(films):
@@ -35,7 +37,7 @@ def store_films(films):
     else: 
         print("An error occured while persiting the films to json. No action taken")
 
-
+#Léon Albert
 # Check if the JSON file exists
 def json_exists():
     if not FILMS_FILE.is_file():

@@ -14,6 +14,7 @@ ACTIONS = {
 
 
 # handles action and redirects to the appropriate service function
+# Léon Albert
 def handle_action(action):
     if action == "help":
         for name, description in ACTIONS.items():
