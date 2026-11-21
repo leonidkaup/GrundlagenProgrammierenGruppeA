@@ -1,0 +1,3002 @@
+[
+  {
+    "title": "The Matrix",
+    "dateOfRelease": "31.03.1999",
+    "genre": "Science Fiction",
+    "rating": 9,
+    "description": "A hacker discovers the truth about reality.",
+    "actors": [
+      "Keanu Reeves",
+      "Laurence Fishburne"
+    ],
+    "watchdate": "10.10.2026"
+  },
+  {
+    "title": "Gladiator",
+    "dateOfRelease": "05.05.2000",
+    "genre": "Action",
+    "rating": 8,
+    "description": "A Roman general becomes a gladiator.",
+    "actors": [
+      "Russell Crowe",
+      "Joaquin Phoenix"
+    ],
+    "watchdate": "11.10.2026"
+  },
+  {
+    "title": "12 Angry Men",
+    "dateOfRelease": "10.04.1957",
+    "genre": "Crime",
+    "rating": 7,
+    "description": "A juror challenges the assumptions of eleven others during a murder trial.",
+    "actors": [
+      "Henry Fonda",
+      "Lee J. Cobb"
+    ],
+    "watchdate": "20.10.2026"
+  },
+  {
+    "title": "12 Years a Slave",
+    "dateOfRelease": "08.11.2013",
+    "genre": "Biography",
+    "rating": 7,
+    "description": "A free man is abducted and forced to endure enslavement.",
+    "actors": [
+      "Chiwetel Ejiofor",
+      "Michael Kenneth Williams"
+    ],
+    "watchdate": "30.06.2025"
+  },
+  {
+    "title": "1917",
+    "dateOfRelease": "10.01.2020",
+    "genre": "Action",
+    "rating": 7,
+    "description": "Two soldiers race across enemy territory to deliver an urgent warning.",
+    "actors": [
+      "Dean-Charles Chapman",
+      "George MacKay"
+    ],
+    "watchdate": "05.10.2022"
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "dateOfRelease": "24.06.1970",
+    "genre": "Adventure",
+    "rating": 8,
+    "description": "A mysterious discovery launches a journey through space and human evolution.",
+    "actors": [
+      "Keir Dullea",
+      "Gary Lockwood"
+    ],
+    "watchdate": "09.03.2026"
+  },
+  {
+    "title": "3 Idiots",
+    "dateOfRelease": "25.12.2009",
+    "genre": "Comedy",
+    "rating": 8,
+    "description": "Three engineering students challenge conventional ideas about success.",
+    "actors": [
+      "Aamir Khan",
+      "Madhavan"
+    ],
+    "watchdate": "01.11.2025"
+  },
+  {
+    "title": "A Beautiful Mind",
+    "dateOfRelease": "04.01.2002",
+    "genre": "Biography",
+    "rating": 8,
+    "description": "A brilliant mathematician confronts a difficult personal struggle.",
+    "actors": [
+      "Russell Crowe",
+      "Ed Harris"
+    ],
+    "watchdate": "03.01.2023"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "dateOfRelease": "02.02.1972",
+    "genre": "Crime",
+    "rating": 8,
+    "description": "A violent young man undergoes an unsettling attempt at rehabilitation.",
+    "actors": [
+      "Malcolm McDowell",
+      "Patrick Magee"
+    ],
+    "watchdate": "14.04.2022"
+  },
+  {
+    "title": "A Separation",
+    "dateOfRelease": "16.03.2011",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "A moving drama about personal change, relationships, and choices, starring Payman Maadi and Leila Hatami.",
+    "actors": [
+      "Payman Maadi",
+      "Leila Hatami"
+    ],
+    "watchdate": "23.06.2025"
+  },
+  {
+    "title": "Aladdin",
+    "dateOfRelease": "25.11.1992",
+    "genre": "Animation",
+    "rating": 9,
+    "description": "A young street thief discovers a magical lamp with a powerful genie.",
+    "actors": [
+      "Scott Weinger",
+      "Robin Williams"
+    ],
+    "watchdate": "01.08.2024"
+  },
+  {
+    "title": "Alien",
+    "dateOfRelease": "22.06.1979",
+    "genre": "Horror",
+    "rating": 9,
+    "description": "A spaceship crew encounters a terrifying life-form far from Earth.",
+    "actors": [
+      "Sigourney Weaver",
+      "Tom Skerritt"
+    ],
+    "watchdate": "09.12.2022"
+  },
+  {
+    "title": "Aliens",
+    "dateOfRelease": "18.07.1986",
+    "genre": "Action",
+    "rating": 9,
+    "description": "A survivor returns to a hostile planet with a team of marines.",
+    "actors": [
+      "Sigourney Weaver",
+      "Michael Biehn"
+    ],
+    "watchdate": "21.03.2021"
+  },
+  {
+    "title": "All About Eve",
+    "dateOfRelease": "27.10.1950",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "A moving drama about personal change, relationships, and choices, starring Bette Davis and Anne Baxter.",
+    "actors": [
+      "Bette Davis",
+      "Anne Baxter"
+    ],
+    "watchdate": "10.01.2023"
+  },
+  {
+    "title": "Amadeus",
+    "dateOfRelease": "19.09.1984",
+    "genre": "Biography",
+    "rating": 5,
+    "description": "A composer reflects bitterly on the extraordinary talent of Mozart.",
+    "actors": [
+      "F. Murray Abraham",
+      "Tom Hulce"
+    ],
+    "watchdate": "09.03.2021"
+  },
+  {
+    "title": "American Beauty",
+    "dateOfRelease": "01.10.1999",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A suburban family’s ordinary appearance hides deep dissatisfaction.",
+    "actors": [
+      "Kevin Spacey",
+      "Annette Bening"
+    ],
+    "watchdate": "29.02.2024"
+  },
+  {
+    "title": "American History X",
+    "dateOfRelease": "20.11.1998",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A former extremist confronts the consequences of hatred and violence.",
+    "actors": [
+      "Edward Norton",
+      "Edward Furlong"
+    ],
+    "watchdate": "23.12.2024"
+  },
+  {
+    "title": "Amores perros",
+    "dateOfRelease": "13.04.2001",
+    "genre": "Drama",
+    "rating": 10,
+    "description": "A character-driven drama featuring Emilio Echevarría and Gael García Bernal, exploring difficult decisions and their consequences.",
+    "actors": [
+      "Emilio Echevarría",
+      "Gael García Bernal"
+    ],
+    "watchdate": "01.01.2024"
+  },
+  {
+    "title": "Amélie",
+    "dateOfRelease": "08.02.2002",
+    "genre": "Comedy",
+    "rating": 7,
+    "description": "A shy Parisian woman decides to improve the lives of strangers.",
+    "actors": [
+      "Audrey Tautou",
+      "Mathieu Kassovitz"
+    ],
+    "watchdate": "17.11.2026"
+  },
+  {
+    "title": "Apocalypse Now",
+    "dateOfRelease": "15.08.1979",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "A soldier journeys into the jungle on a dangerous wartime mission.",
+    "actors": [
+      "Martin Sheen",
+      "Marlon Brando"
+    ],
+    "watchdate": "05.04.2023"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "dateOfRelease": "26.04.2019",
+    "genre": "Action",
+    "rating": 7,
+    "description": "Surviving heroes attempt to reverse a universe-changing catastrophe.",
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Evans"
+    ],
+    "watchdate": "24.07.2026"
+  },
+  {
+    "title": "Avengers: Infinity War",
+    "dateOfRelease": "27.04.2018",
+    "genre": "Action",
+    "rating": 9,
+    "description": "Marvel heroes unite against a cosmic threat seeking ultimate power.",
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth"
+    ],
+    "watchdate": "12.05.2026"
+  },
+  {
+    "title": "Back to the Future",
+    "dateOfRelease": "03.07.1985",
+    "genre": "Adventure",
+    "rating": 8,
+    "description": "A teenager travels to the past and accidentally disrupts his parents’ future.",
+    "actors": [
+      "Michael J. Fox",
+      "Christopher Lloyd"
+    ],
+    "watchdate": "27.02.2026"
+  },
+  {
+    "title": "Barry Lyndon",
+    "dateOfRelease": "18.12.1975",
+    "genre": "Adventure",
+    "rating": 8,
+    "description": "An adventurous journey with unexpected challenges, featuring Ryan O'Neal and Marisa Berenson.",
+    "actors": [
+      "Ryan O'Neal",
+      "Marisa Berenson"
+    ],
+    "watchdate": "07.01.2026"
+  },
+  {
+    "title": "Batman Begins",
+    "dateOfRelease": "15.06.2005",
+    "genre": "Action",
+    "rating": 6,
+    "description": "A young man returns to Gotham to confront crime and fear.",
+    "actors": [
+      "Christian Bale",
+      "Michael Caine"
+    ],
+    "watchdate": "16.09.2021"
+  },
+  {
+    "title": "Beauty and the Beast",
+    "dateOfRelease": "22.11.1991",
+    "genre": "Animation",
+    "rating": 8,
+    "description": "A young woman discovers kindness behind a frightening appearance.",
+    "actors": [
+      "Paige O'Hara",
+      "Robby Benson"
+    ],
+    "watchdate": "02.09.2021"
+  },
+  {
+    "title": "Before Sunrise",
+    "dateOfRelease": "27.01.1995",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "Two strangers meet on a train and spend one memorable night together.",
+    "actors": [
+      "Ethan Hawke",
+      "Julie Delpy"
+    ],
+    "watchdate": "28.01.2023"
+  },
+  {
+    "title": "Before Sunset",
+    "dateOfRelease": "30.07.2004",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "Two people reconnect years after their unforgettable first meeting.",
+    "actors": [
+      "Ethan Hawke",
+      "Julie Delpy"
+    ],
+    "watchdate": "27.07.2022"
+  },
+  {
+    "title": "Ben-Hur",
+    "dateOfRelease": "18.11.1959",
+    "genre": "Adventure",
+    "rating": 6,
+    "description": "A sweeping adventure in which new encounters change everything, featuring Charlton Heston and Jack Hawkins.",
+    "actors": [
+      "Charlton Heston",
+      "Jack Hawkins"
+    ],
+    "watchdate": "02.01.2026"
+  },
+  {
+    "title": "Bicycle Thieves",
+    "dateOfRelease": "13.12.1949",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A character-driven drama featuring Lamberto Maggiorani and Enzo Staiola, exploring difficult decisions and their consequences.",
+    "actors": [
+      "Lamberto Maggiorani",
+      "Enzo Staiola"
+    ],
+    "watchdate": "15.12.2023"
+  },
+  {
+    "title": "Blade Runner",
+    "dateOfRelease": "25.06.1982",
+    "genre": "Action",
+    "rating": 8,
+    "description": "A detective hunts synthetic humans in a bleak futuristic city.",
+    "actors": [
+      "Harrison Ford",
+      "Rutger Hauer"
+    ],
+    "watchdate": "05.08.2022"
+  },
+  {
+    "title": "Braveheart",
+    "dateOfRelease": "24.05.1995",
+    "genre": "Biography",
+    "rating": 9,
+    "description": "A Scottish warrior leads a rebellion against English rule.",
+    "actors": [
+      "Mel Gibson",
+      "Sophie Marceau"
+    ],
+    "watchdate": "21.10.2021"
+  },
+  {
+    "title": "Capernaum",
+    "dateOfRelease": "20.09.2018",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "A dramatic story of human struggles and unexpected turning points featuring Zain Al Rafeea and Yordanos Shiferaw.",
+    "actors": [
+      "Zain Al Rafeea",
+      "Yordanos Shiferaw"
+    ],
+    "watchdate": "18.04.2024"
+  },
+  {
+    "title": "Casablanca",
+    "dateOfRelease": "23.01.1943",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "An expatriate faces a painful choice when an old love reappears.",
+    "actors": [
+      "Humphrey Bogart",
+      "Ingrid Bergman"
+    ],
+    "watchdate": "11.11.2024"
+  },
+  {
+    "title": "Casino",
+    "dateOfRelease": "22.11.1995",
+    "genre": "Crime",
+    "rating": 7,
+    "description": "Power, greed, and betrayal threaten a gambling empire in Las Vegas.",
+    "actors": [
+      "Robert De Niro",
+      "Sharon Stone"
+    ],
+    "watchdate": "11.03.2022"
+  },
+  {
+    "title": "Catch Me If You Can",
+    "dateOfRelease": "25.12.2002",
+    "genre": "Biography",
+    "rating": 8,
+    "description": "A talented young impostor stays one step ahead of an FBI agent.",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Tom Hanks"
+    ],
+    "watchdate": "04.10.2023"
+  },
+  {
+    "title": "Children of Heaven",
+    "dateOfRelease": "22.01.1999",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A character-driven drama featuring Mohammad Amir Naji and Amir Farrokh Hashemian, exploring difficult decisions and their consequences.",
+    "actors": [
+      "Mohammad Amir Naji",
+      "Amir Farrokh Hashemian"
+    ],
+    "watchdate": "19.07.2022"
+  },
+  {
+    "title": "Chinatown",
+    "dateOfRelease": "20.06.1974",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "A private investigator becomes entangled in a case of corruption.",
+    "actors": [
+      "Jack Nicholson",
+      "Faye Dunaway"
+    ],
+    "watchdate": "21.05.2021"
+  },
+  {
+    "title": "Cinema Paradiso",
+    "dateOfRelease": "23.02.1990",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A filmmaker recalls his childhood friendship with a cinema projectionist.",
+    "actors": [
+      "Philippe Noiret",
+      "Enzo Cannavale"
+    ],
+    "watchdate": "13.06.2021"
+  },
+  {
+    "title": "Citizen Kane",
+    "dateOfRelease": "05.09.1941",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A journalist investigates the secrets behind a powerful man’s life.",
+    "actors": [
+      "Orson Welles",
+      "Joseph Cotten"
+    ],
+    "watchdate": "26.11.2023"
+  },
+  {
+    "title": "City Lights",
+    "dateOfRelease": "07.03.1931",
+    "genre": "Comedy",
+    "rating": 8,
+    "description": "A kind-hearted wanderer tries to help a woman who cannot see.",
+    "actors": [
+      "Charles Chaplin",
+      "Virginia Cherrill"
+    ],
+    "watchdate": "17.02.2023"
+  },
+  {
+    "title": "City of God",
+    "dateOfRelease": "13.02.2004",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "Young people navigate violence and ambition in a Brazilian neighborhood.",
+    "actors": [
+      "Alexandre Rodrigues",
+      "Leandro Firmino"
+    ],
+    "watchdate": "06.03.2021"
+  },
+  {
+    "title": "Coco",
+    "dateOfRelease": "22.11.2017",
+    "genre": "Animation",
+    "rating": 7,
+    "description": "A boy explores the Land of the Dead to uncover his family history.",
+    "actors": [
+      "Anthony Gonzalez",
+      "Gael García Bernal"
+    ],
+    "watchdate": "14.11.2022"
+  },
+  {
+    "title": "Come and See",
+    "dateOfRelease": "03.09.1985",
+    "genre": "Drama",
+    "rating": 10,
+    "description": "A moving drama about personal change, relationships, and choices, starring Aleksey Kravchenko and Olga Mironova.",
+    "actors": [
+      "Aleksey Kravchenko",
+      "Olga Mironova"
+    ],
+    "watchdate": "19.03.2021"
+  },
+  {
+    "title": "Cool Hand Luke",
+    "dateOfRelease": "01.11.1967",
+    "genre": "Crime",
+    "rating": 10,
+    "description": "A gripping crime drama exploring deception and ambition with Paul Newman and George Kennedy.",
+    "actors": [
+      "Paul Newman",
+      "George Kennedy"
+    ],
+    "watchdate": "19.09.2026"
+  },
+  {
+    "title": "Dances with Wolves",
+    "dateOfRelease": "21.11.1990",
+    "genre": "Adventure",
+    "rating": 9,
+    "description": "A soldier forges new relationships on the American frontier.",
+    "actors": [
+      "Kevin Costner",
+      "Mary McDonnell"
+    ],
+    "watchdate": "03.07.2024"
+  },
+  {
+    "title": "Dangal",
+    "dateOfRelease": "21.12.2016",
+    "genre": "Action",
+    "rating": 7,
+    "description": "An action-packed adventure in which characters portrayed by Aamir Khan and Sakshi Tanwar face mounting danger.",
+    "actors": [
+      "Aamir Khan",
+      "Sakshi Tanwar"
+    ],
+    "watchdate": "14.03.2026"
+  },
+  {
+    "title": "Dead Poets Society",
+    "dateOfRelease": "09.06.1989",
+    "genre": "Comedy",
+    "rating": 9,
+    "description": "An inspiring teacher encourages students to question convention.",
+    "actors": [
+      "Robin Williams",
+      "Robert Sean Leonard"
+    ],
+    "watchdate": "08.05.2025"
+  },
+  {
+    "title": "Dersu Uzala",
+    "dateOfRelease": "20.12.1977",
+    "genre": "Adventure",
+    "rating": 9,
+    "description": "A story of exploration, risk, and discovery starring Maksim Munzuk and Yuriy Solomin.",
+    "actors": [
+      "Maksim Munzuk",
+      "Yuriy Solomin"
+    ],
+    "watchdate": "23.06.2023"
+  },
+  {
+    "title": "Dial M for Murder",
+    "dateOfRelease": "29.05.1954",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A suspenseful tale about secrets, criminal choices, and their consequences starring Ray Milland and Grace Kelly.",
+    "actors": [
+      "Ray Milland",
+      "Grace Kelly"
+    ],
+    "watchdate": "22.09.2022"
+  },
+  {
+    "title": "Die Hard",
+    "dateOfRelease": "20.07.1988",
+    "genre": "Action",
+    "rating": 8,
+    "description": "An off-duty police officer battles criminals inside a skyscraper.",
+    "actors": [
+      "Bruce Willis",
+      "Alan Rickman"
+    ],
+    "watchdate": "13.07.2025"
+  },
+  {
+    "title": "Django Unchained",
+    "dateOfRelease": "25.12.2012",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "A freed man joins a bounty hunter to rescue his wife.",
+    "actors": [
+      "Jamie Foxx",
+      "Christoph Waltz"
+    ],
+    "watchdate": "25.10.2023"
+  },
+  {
+    "title": "Double Indemnity",
+    "dateOfRelease": "06.07.1944",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A crime story filled with difficult loyalties and tense confrontations, featuring Fred MacMurray and Barbara Stanwyck.",
+    "actors": [
+      "Fred MacMurray",
+      "Barbara Stanwyck"
+    ],
+    "watchdate": "08.05.2023"
+  },
+  {
+    "title": "Downfall",
+    "dateOfRelease": "08.04.2005",
+    "genre": "Biography",
+    "rating": 9,
+    "description": "A biographical story about an extraordinary life and the choices that shaped it, featuring Bruno Ganz and Alexandra Maria Lara.",
+    "actors": [
+      "Bruno Ganz",
+      "Alexandra Maria Lara"
+    ],
+    "watchdate": "14.02.2024"
+  },
+  {
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "dateOfRelease": "29.01.1964",
+    "genre": "Comedy",
+    "rating": null,
+    "description": "An entertaining story that finds humor in unusual situations, starring Peter Sellers and George C. Scott.",
+    "actors": [
+      "Peter Sellers",
+      "George C. Scott"
+    ],
+    "watchdate": "20.02.2026"
+  },
+  {
+    "title": "Dune",
+    "dateOfRelease": "22.10.2021",
+    "genre": "Action",
+    "rating": null,
+    "description": "A gifted young heir confronts political intrigue on a desert planet.",
+    "actors": [
+      "Timothée Chalamet",
+      "Rebecca Ferguson"
+    ],
+    "watchdate": "09.11.2022"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "dateOfRelease": "19.03.2004",
+    "genre": "Drama",
+    "rating": null,
+    "description": "Former lovers explore the painful consequences of erasing memories.",
+    "actors": [
+      "Jim Carrey",
+      "Kate Winslet"
+    ],
+    "watchdate": "17.05.2026"
+  },
+  {
+    "title": "Fargo",
+    "dateOfRelease": "05.04.1996",
+    "genre": "Crime",
+    "rating": 6,
+    "description": "A poorly planned crime leads to chaos in a snowy American town.",
+    "actors": [
+      "William H. Macy",
+      "Frances McDormand"
+    ],
+    "watchdate": "25.10.2022"
+  },
+  {
+    "title": "Fight Club",
+    "dateOfRelease": "15.10.1999",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "An unhappy office worker enters a secret world of underground fighting.",
+    "actors": [
+      "Brad Pitt",
+      "Edward Norton"
+    ],
+    "watchdate": "06.07.2021"
+  },
+  {
+    "title": "Finding Nemo",
+    "dateOfRelease": "30.05.2003",
+    "genre": "Animation",
+    "rating": 8,
+    "description": "An anxious father crosses the ocean to find his missing son.",
+    "actors": [
+      "Albert Brooks",
+      "Ellen DeGeneres"
+    ],
+    "watchdate": "16.11.2024"
+  },
+  {
+    "title": "For a Few Dollars More",
+    "dateOfRelease": "10.05.1967",
+    "genre": "Western",
+    "rating": 8,
+    "description": "A tense frontier story with dangerous rivals, featuring Clint Eastwood and Lee Van Cleef.",
+    "actors": [
+      "Clint Eastwood",
+      "Lee Van Cleef"
+    ],
+    "watchdate": "21.09.2023"
+  },
+  {
+    "title": "Ford v Ferrari",
+    "dateOfRelease": "15.11.2019",
+    "genre": "Action",
+    "rating": 10,
+    "description": "Racing engineers challenge a dominant competitor at Le Mans.",
+    "actors": [
+      "Matt Damon",
+      "Christian Bale"
+    ],
+    "watchdate": "17.01.2024"
+  },
+  {
+    "title": "Forrest Gump",
+    "dateOfRelease": "06.07.1994",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "An unassuming man experiences extraordinary moments in modern American history.",
+    "actors": [
+      "Tom Hanks",
+      "Robin Wright"
+    ],
+    "watchdate": "04.07.2026"
+  },
+  {
+    "title": "Full Metal Jacket",
+    "dateOfRelease": "10.07.1987",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "Young Marines face brutal training and the realities of war.",
+    "actors": [
+      "Matthew Modine",
+      "R. Lee Ermey"
+    ],
+    "watchdate": "26.11.2023"
+  },
+  {
+    "title": "Gandhi",
+    "dateOfRelease": "25.02.1983",
+    "genre": "Biography",
+    "rating": 7,
+    "description": "A film inspired by real events, with performances by Ben Kingsley and John Gielgud.",
+    "actors": [
+      "Ben Kingsley",
+      "John Gielgud"
+    ],
+    "watchdate": "08.05.2026"
+  },
+  {
+    "title": "Gone Girl",
+    "dateOfRelease": "03.10.2014",
+    "genre": "Drama",
+    "rating": 5,
+    "description": "A woman’s disappearance exposes the secrets of her marriage.",
+    "actors": [
+      "Ben Affleck",
+      "Rosamund Pike"
+    ],
+    "watchdate": "04.11.2024"
+  },
+  {
+    "title": "Gone with the Wind",
+    "dateOfRelease": "17.01.1940",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A determined woman survives upheaval during the American Civil War.",
+    "actors": [
+      "Clark Gable",
+      "Vivien Leigh"
+    ],
+    "watchdate": "20.10.2024"
+  },
+  {
+    "title": "Good Will Hunting",
+    "dateOfRelease": "09.01.1998",
+    "genre": "Drama",
+    "rating": 10,
+    "description": "A brilliant young man confronts his past with help from a therapist.",
+    "actors": [
+      "Robin Williams",
+      "Matt Damon"
+    ],
+    "watchdate": "14.02.2021"
+  },
+  {
+    "title": "Goodfellas",
+    "dateOfRelease": "21.09.1990",
+    "genre": "Biography",
+    "rating": 5,
+    "description": "An ambitious young man rises through the ranks of organized crime.",
+    "actors": [
+      "Robert De Niro",
+      "Ray Liotta"
+    ],
+    "watchdate": "19.01.2023"
+  },
+  {
+    "title": "Gran Torino",
+    "dateOfRelease": "09.01.2009",
+    "genre": "Drama",
+    "rating": 10,
+    "description": "A hardened veteran develops an unexpected bond with his neighbors.",
+    "actors": [
+      "Clint Eastwood",
+      "Bee Vang"
+    ],
+    "watchdate": "21.04.2024"
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "dateOfRelease": "26.07.1989",
+    "genre": "Animation",
+    "rating": 7,
+    "description": "Two siblings fight to survive in Japan during the final months of war.",
+    "actors": [
+      "Tsutomu Tatsumi",
+      "Ayano Shiraishi"
+    ],
+    "watchdate": "20.11.2023"
+  },
+  {
+    "title": "Green Book",
+    "dateOfRelease": "16.11.2018",
+    "genre": "Biography",
+    "rating": 8,
+    "description": "A musician and his driver develop an unlikely bond during a road trip.",
+    "actors": [
+      "Viggo Mortensen",
+      "Mahershala Ali"
+    ],
+    "watchdate": "16.08.2025"
+  },
+  {
+    "title": "Groundhog Day",
+    "dateOfRelease": "12.02.1993",
+    "genre": "Comedy",
+    "rating": 7,
+    "description": "A cynical weatherman becomes trapped reliving the same day.",
+    "actors": [
+      "Bill Murray",
+      "Andie MacDowell"
+    ],
+    "watchdate": "05.08.2023"
+  },
+  {
+    "title": "Hachi: A Dog's Tale",
+    "dateOfRelease": "12.03.2010",
+    "genre": "Biography",
+    "rating": 7,
+    "description": "A devoted dog continues to wait for its beloved owner.",
+    "actors": [
+      "Richard Gere",
+      "Joan Allen"
+    ],
+    "watchdate": "02.06.2023"
+  },
+  {
+    "title": "Hacksaw Ridge",
+    "dateOfRelease": "04.11.2016",
+    "genre": "Biography",
+    "rating": 8,
+    "description": "A conscientious objector serves as a medic during a brutal battle.",
+    "actors": [
+      "Andrew Garfield",
+      "Sam Worthington"
+    ],
+    "watchdate": "07.04.2022"
+  },
+  {
+    "title": "Hamilton",
+    "dateOfRelease": "03.07.2020",
+    "genre": "Biography",
+    "rating": 9,
+    "description": "A biographical story about an extraordinary life and the choices that shaped it, featuring Lin-Manuel Miranda and Phillipa Soo.",
+    "actors": [
+      "Lin-Manuel Miranda",
+      "Phillipa Soo"
+    ],
+    "watchdate": "29.05.2021"
+  },
+  {
+    "title": "Hara-Kiri",
+    "dateOfRelease": "04.08.1964",
+    "genre": "Action",
+    "rating": 8,
+    "description": "An action-packed adventure in which characters portrayed by Tatsuya Nakadai and Akira Ishihama face mounting danger.",
+    "actors": [
+      "Tatsuya Nakadai",
+      "Akira Ishihama"
+    ],
+    "watchdate": "01.04.2025"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "dateOfRelease": "15.07.2011",
+    "genre": "Adventure",
+    "rating": 9,
+    "description": "A story of exploration, risk, and discovery starring Daniel Radcliffe and Emma Watson.",
+    "actors": [
+      "Daniel Radcliffe",
+      "Emma Watson"
+    ],
+    "watchdate": "09.07.2022"
+  },
+  {
+    "title": "Heat",
+    "dateOfRelease": "15.12.1995",
+    "genre": "Action",
+    "rating": 9,
+    "description": "A master thief and a dedicated detective collide in Los Angeles.",
+    "actors": [
+      "Al Pacino",
+      "Robert De Niro"
+    ],
+    "watchdate": "06.07.2023"
+  },
+  {
+    "title": "High and Low",
+    "dateOfRelease": "26.11.1963",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A suspenseful tale about secrets, criminal choices, and their consequences starring Toshirô Mifune and Yutaka Sada.",
+    "actors": [
+      "Toshirô Mifune",
+      "Yutaka Sada"
+    ],
+    "watchdate": "17.07.2022"
+  },
+  {
+    "title": "Hotel Rwanda",
+    "dateOfRelease": "04.02.2005",
+    "genre": "Biography",
+    "rating": 7,
+    "description": "A hotel manager shelters people during a devastating conflict.",
+    "actors": [
+      "Don Cheadle",
+      "Sophie Okonedo"
+    ],
+    "watchdate": "03.03.2023"
+  },
+  {
+    "title": "How to Train Your Dragon",
+    "dateOfRelease": "26.03.2010",
+    "genre": "Animation",
+    "rating": 6,
+    "description": "A Viking teenager befriends the dragon he was taught to fear.",
+    "actors": [
+      "Jay Baruchel",
+      "Gerard Butler"
+    ],
+    "watchdate": "18.01.2026"
+  },
+  {
+    "title": "Howl's Moving Castle",
+    "dateOfRelease": "17.06.2005",
+    "genre": "Animation",
+    "rating": 8,
+    "description": "A young woman under a spell finds refuge in a magical castle.",
+    "actors": [
+      "Chieko Baishô",
+      "Takuya Kimura"
+    ],
+    "watchdate": "18.11.2023"
+  },
+  {
+    "title": "Ikiru",
+    "dateOfRelease": "25.03.1956",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A dramatic story of human struggles and unexpected turning points featuring Takashi Shimura and Nobuo Kaneko.",
+    "actors": [
+      "Takashi Shimura",
+      "Nobuo Kaneko"
+    ],
+    "watchdate": "02.12.2023"
+  },
+  {
+    "title": "In the Name of the Father",
+    "dateOfRelease": "25.02.1994",
+    "genre": "Biography",
+    "rating": 9,
+    "description": "A film inspired by real events, with performances by Daniel Day-Lewis and Pete Postlethwaite.",
+    "actors": [
+      "Daniel Day-Lewis",
+      "Pete Postlethwaite"
+    ],
+    "watchdate": "25.09.2021"
+  },
+  {
+    "title": "Incendies",
+    "dateOfRelease": "12.01.2011",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A dramatic story of human struggles and unexpected turning points featuring Lubna Azabal and Mélissa Désormeaux-Poulin.",
+    "actors": [
+      "Lubna Azabal",
+      "Mélissa Désormeaux-Poulin"
+    ],
+    "watchdate": "29.07.2022"
+  },
+  {
+    "title": "Inception",
+    "dateOfRelease": "16.07.2010",
+    "genre": "Action",
+    "rating": 8,
+    "description": "A skilled thief infiltrates dreams to plant an idea in a target’s mind.",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt"
+    ],
+    "watchdate": "03.05.2023"
+  },
+  {
+    "title": "Indiana Jones and the Last Crusade",
+    "dateOfRelease": "24.05.1989",
+    "genre": "Action",
+    "rating": 6,
+    "description": "An archaeologist searches for a legendary relic and his missing father.",
+    "actors": [
+      "Harrison Ford",
+      "Sean Connery"
+    ],
+    "watchdate": "17.09.2024"
+  },
+  {
+    "title": "Indiana Jones and the Raiders of the Lost Ark",
+    "dateOfRelease": "12.06.1981",
+    "genre": "Action",
+    "rating": 8,
+    "description": "An adventurous archaeologist races to recover an ancient relic.",
+    "actors": [
+      "Harrison Ford",
+      "Karen Allen"
+    ],
+    "watchdate": "13.01.2025"
+  },
+  {
+    "title": "Inglourious Basterds",
+    "dateOfRelease": "21.08.2009",
+    "genre": "Adventure",
+    "rating": 9,
+    "description": "Resistance fighters and soldiers plot against Nazi leaders.",
+    "actors": [
+      "Brad Pitt",
+      "Diane Kruger"
+    ],
+    "watchdate": "17.01.2025"
+  },
+  {
+    "title": "Inside Out",
+    "dateOfRelease": "19.06.2015",
+    "genre": "Animation",
+    "rating": 8,
+    "description": "Emotions guide a young girl through a difficult life transition.",
+    "actors": [
+      "Amy Poehler",
+      "Bill Hader"
+    ],
+    "watchdate": "21.05.2023"
+  },
+  {
+    "title": "Interstellar",
+    "dateOfRelease": "07.11.2014",
+    "genre": "Adventure",
+    "rating": 10,
+    "description": "Explorers travel beyond Earth in search of a future for humanity.",
+    "actors": [
+      "Matthew McConaughey",
+      "Anne Hathaway"
+    ],
+    "watchdate": "11.10.2026"
+  },
+  {
+    "title": "Into the Wild",
+    "dateOfRelease": "19.10.2007",
+    "genre": "Adventure",
+    "rating": 8,
+    "description": "A young traveler leaves conventional life to seek independence.",
+    "actors": [
+      "Emile Hirsch",
+      "Vince Vaughn"
+    ],
+    "watchdate": "19.05.2023"
+  },
+  {
+    "title": "It Happened One Night",
+    "dateOfRelease": "22.02.1934",
+    "genre": "Comedy",
+    "rating": 8,
+    "description": "A comedy of misunderstandings and surprises featuring Clark Gable and Claudette Colbert.",
+    "actors": [
+      "Clark Gable",
+      "Claudette Colbert"
+    ],
+    "watchdate": "20.08.2026"
+  },
+  {
+    "title": "It's a Wonderful Life",
+    "dateOfRelease": "07.01.1947",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A discouraged man discovers how deeply his life has affected others.",
+    "actors": [
+      "James Stewart",
+      "Donna Reed"
+    ],
+    "watchdate": "24.12.2021"
+  },
+  {
+    "title": "Jaws",
+    "dateOfRelease": "20.06.1975",
+    "genre": "Adventure",
+    "rating": 8,
+    "description": "A coastal town faces danger after a great white shark appears.",
+    "actors": [
+      "Roy Scheider",
+      "Robert Shaw"
+    ],
+    "watchdate": "29.07.2026"
+  },
+  {
+    "title": "Joker",
+    "dateOfRelease": "04.10.2019",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A troubled loner’s downward spiral shakes Gotham City.",
+    "actors": [
+      "Joaquin Phoenix",
+      "Robert De Niro"
+    ],
+    "watchdate": "03.07.2023"
+  },
+  {
+    "title": "Judgment at Nuremberg",
+    "dateOfRelease": "18.12.1961",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "A dramatic story of human struggles and unexpected turning points featuring Spencer Tracy and Burt Lancaster.",
+    "actors": [
+      "Spencer Tracy",
+      "Burt Lancaster"
+    ],
+    "watchdate": "19.11.2025"
+  },
+  {
+    "title": "Jurassic Park",
+    "dateOfRelease": "11.06.1993",
+    "genre": "Action",
+    "rating": 9,
+    "description": "A theme park filled with revived dinosaurs spirals out of control.",
+    "actors": [
+      "Sam Neill",
+      "Laura Dern"
+    ],
+    "watchdate": "21.07.2025"
+  },
+  {
+    "title": "Kill Bill: Vol. 1",
+    "dateOfRelease": "10.10.2003",
+    "genre": "Action",
+    "rating": 8,
+    "description": "A betrayed assassin begins a relentless campaign of revenge.",
+    "actors": [
+      "Uma Thurman",
+      "David Carradine"
+    ],
+    "watchdate": "16.08.2026"
+  },
+  {
+    "title": "Klaus",
+    "dateOfRelease": "15.11.2019",
+    "genre": "Animation",
+    "rating": 8,
+    "description": "A reluctant postman discovers the power of kindness in a remote town.",
+    "actors": [
+      "Jason Schwartzman",
+      "J.K. Simmons"
+    ],
+    "watchdate": "18.01.2022"
+  },
+  {
+    "title": "L.A. Confidential",
+    "dateOfRelease": "19.09.1997",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "Los Angeles detectives uncover corruption behind a complex murder case.",
+    "actors": [
+      "Kevin Spacey",
+      "Russell Crowe"
+    ],
+    "watchdate": "12.03.2024"
+  },
+  {
+    "title": "La Haine",
+    "dateOfRelease": "23.02.1996",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A crime story filled with difficult loyalties and tense confrontations, featuring Vincent Cassel and Hubert Koundé.",
+    "actors": [
+      "Vincent Cassel",
+      "Hubert Koundé"
+    ],
+    "watchdate": "11.01.2025"
+  },
+  {
+    "title": "Lawrence of Arabia",
+    "dateOfRelease": "11.12.1962",
+    "genre": "Adventure",
+    "rating": 8,
+    "description": "A British officer becomes deeply involved in an Arab revolt.",
+    "actors": [
+      "Peter O'Toole",
+      "Alec Guinness"
+    ],
+    "watchdate": "25.06.2021"
+  },
+  {
+    "title": "Life Is Beautiful",
+    "dateOfRelease": "20.12.1997",
+    "genre": "Comedy",
+    "rating": 8,
+    "description": "A devoted father uses imagination to protect his child during wartime.",
+    "actors": [
+      "Roberto Benigni",
+      "Nicoletta Braschi"
+    ],
+    "watchdate": "25.09.2026"
+  },
+  {
+    "title": "Life of Brian",
+    "dateOfRelease": "17.08.1979",
+    "genre": "Comedy",
+    "rating": 6,
+    "description": "A witty comedy about people facing unexpected complications with Graham Chapman and John Cleese.",
+    "actors": [
+      "Graham Chapman",
+      "John Cleese"
+    ],
+    "watchdate": "04.01.2021"
+  },
+  {
+    "title": "Like Stars on Earth",
+    "dateOfRelease": "21.12.2007",
+    "genre": "Drama",
+    "rating": 10,
+    "description": "A character-driven drama featuring Darsheel Safary and Aamir Khan, exploring difficult decisions and their consequences.",
+    "actors": [
+      "Darsheel Safary",
+      "Aamir Khan"
+    ],
+    "watchdate": "25.10.2025"
+  },
+  {
+    "title": "Lock, Stock and Two Smoking Barrels",
+    "dateOfRelease": "28.08.1998",
+    "genre": "Action",
+    "rating": 8,
+    "description": "An action-packed adventure in which characters portrayed by Jason Flemyng and Dexter Fletcher face mounting danger.",
+    "actors": [
+      "Jason Flemyng",
+      "Dexter Fletcher"
+    ],
+    "watchdate": "29.05.2025"
+  },
+  {
+    "title": "Logan",
+    "dateOfRelease": "03.03.2017",
+    "genre": "Action",
+    "rating": 9,
+    "description": "An aging mutant embarks on a dangerous journey to protect a child.",
+    "actors": [
+      "Hugh Jackman",
+      "Patrick Stewart"
+    ],
+    "watchdate": "16.05.2024"
+  },
+  {
+    "title": "Léon: The Professional",
+    "dateOfRelease": "18.11.1994",
+    "genre": "Action",
+    "rating": 7,
+    "description": "A solitary hitman becomes the unexpected guardian of a young girl.",
+    "actors": [
+      "Jean Reno",
+      "Gary Oldman"
+    ],
+    "watchdate": "06.07.2025"
+  },
+  {
+    "title": "M",
+    "dateOfRelease": "31.08.1931",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A crime story filled with difficult loyalties and tense confrontations, featuring Peter Lorre and Ellen Widmann.",
+    "actors": [
+      "Peter Lorre",
+      "Ellen Widmann"
+    ],
+    "watchdate": "18.11.2022"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "dateOfRelease": "15.05.2015",
+    "genre": "Action",
+    "rating": 9,
+    "description": "Survivors race across a desert while pursued by a ruthless warlord.",
+    "actors": [
+      "Tom Hardy",
+      "Charlize Theron"
+    ],
+    "watchdate": "07.09.2025"
+  },
+  {
+    "title": "Mary and Max",
+    "dateOfRelease": "12.03.2010",
+    "genre": "Animation",
+    "rating": 8,
+    "description": "An imaginative animated story featuring performances by Toni Collette and Philip Seymour Hoffman.",
+    "actors": [
+      "Toni Collette",
+      "Philip Seymour Hoffman"
+    ],
+    "watchdate": "11.11.2025"
+  },
+  {
+    "title": "Memento",
+    "dateOfRelease": "25.05.2001",
+    "genre": "Mystery",
+    "rating": 6,
+    "description": "A man with severe memory loss searches for clues to a murder.",
+    "actors": [
+      "Guy Pearce",
+      "Carrie-Anne Moss"
+    ],
+    "watchdate": "24.02.2022"
+  },
+  {
+    "title": "Memories of Murder",
+    "dateOfRelease": "02.05.2003",
+    "genre": "Crime",
+    "rating": 10,
+    "description": "Detectives struggle to solve a series of unsettling crimes.",
+    "actors": [
+      "Kang-ho Song",
+      "Kim Sang-kyung"
+    ],
+    "watchdate": "12.10.2022"
+  },
+  {
+    "title": "Metropolis",
+    "dateOfRelease": "13.03.1927",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A moving drama about personal change, relationships, and choices, starring Brigitte Helm and Alfred Abel.",
+    "actors": [
+      "Brigitte Helm",
+      "Alfred Abel"
+    ],
+    "watchdate": "09.05.2021"
+  },
+  {
+    "title": "Million Dollar Baby",
+    "dateOfRelease": "28.01.2005",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "A determined boxer trains under a reluctant veteran coach.",
+    "actors": [
+      "Hilary Swank",
+      "Clint Eastwood"
+    ],
+    "watchdate": "03.01.2021"
+  },
+  {
+    "title": "Modern Times",
+    "dateOfRelease": "25.02.1936",
+    "genre": "Comedy",
+    "rating": 9,
+    "description": "A factory worker struggles to keep up with the demands of industrial life.",
+    "actors": [
+      "Charles Chaplin",
+      "Paulette Goddard"
+    ],
+    "watchdate": "04.06.2022"
+  },
+  {
+    "title": "Monsters, Inc.",
+    "dateOfRelease": "02.11.2001",
+    "genre": "Animation",
+    "rating": 9,
+    "description": "Two factory workers discover that a child could change their world.",
+    "actors": [
+      "Billy Crystal",
+      "John Goodman"
+    ],
+    "watchdate": "16.08.2023"
+  },
+  {
+    "title": "Monty Python and the Holy Grail",
+    "dateOfRelease": "25.05.1975",
+    "genre": "Adventure",
+    "rating": 9,
+    "description": "King Arthur and his knights embark on an absurd quest.",
+    "actors": [
+      "Graham Chapman",
+      "John Cleese"
+    ],
+    "watchdate": "22.11.2024"
+  },
+  {
+    "title": "Mr. Smith Goes to Washington",
+    "dateOfRelease": "19.10.1939",
+    "genre": "Comedy",
+    "rating": 10,
+    "description": "A witty comedy about people facing unexpected complications with James Stewart and Jean Arthur.",
+    "actors": [
+      "James Stewart",
+      "Jean Arthur"
+    ],
+    "watchdate": "16.07.2022"
+  },
+  {
+    "title": "My Father and My Son",
+    "dateOfRelease": "18.11.2005",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "A character-driven drama featuring Eser Sariyar and Çetin Tekindor, exploring difficult decisions and their consequences.",
+    "actors": [
+      "Eser Sariyar",
+      "Çetin Tekindor"
+    ],
+    "watchdate": "20.08.2024"
+  },
+  {
+    "title": "My Neighbor Totoro",
+    "dateOfRelease": "13.07.1990",
+    "genre": "Animation",
+    "rating": 8,
+    "description": "Two sisters discover gentle forest spirits near their new home.",
+    "actors": [
+      "Hitoshi Takagi",
+      "Noriko Hidaka"
+    ],
+    "watchdate": "27.03.2021"
+  },
+  {
+    "title": "Network",
+    "dateOfRelease": "27.11.1976",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A moving drama about personal change, relationships, and choices, starring Faye Dunaway and William Holden.",
+    "actors": [
+      "Faye Dunaway",
+      "William Holden"
+    ],
+    "watchdate": "22.04.2021"
+  },
+  {
+    "title": "No Country for Old Men",
+    "dateOfRelease": "21.11.2007",
+    "genre": "Crime",
+    "rating": 8,
+    "description": "A chance discovery draws several men into a deadly pursuit.",
+    "actors": [
+      "Tommy Lee Jones",
+      "Javier Bardem"
+    ],
+    "watchdate": "23.08.2026"
+  },
+  {
+    "title": "North by Northwest",
+    "dateOfRelease": "18.12.1959",
+    "genre": "Adventure",
+    "rating": 9,
+    "description": "An innocent man is drawn into a dangerous case of mistaken identity.",
+    "actors": [
+      "Cary Grant",
+      "Eva Marie Saint"
+    ],
+    "watchdate": "05.11.2022"
+  },
+  {
+    "title": "Old Boy",
+    "dateOfRelease": "21.11.2003",
+    "genre": "Action",
+    "rating": 9,
+    "description": "A fast-moving action story featuring Choi Min-sik and Yoo Ji-Tae, with dangerous choices and high stakes.",
+    "actors": [
+      "Choi Min-sik",
+      "Yoo Ji-Tae"
+    ],
+    "watchdate": "19.08.2022"
+  },
+  {
+    "title": "On the Waterfront",
+    "dateOfRelease": "22.06.1954",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A crime story filled with difficult loyalties and tense confrontations, featuring Marlon Brando and Karl Malden.",
+    "actors": [
+      "Marlon Brando",
+      "Karl Malden"
+    ],
+    "watchdate": "19.10.2025"
+  },
+  {
+    "title": "Once Upon a Time in America",
+    "dateOfRelease": "01.06.1984",
+    "genre": "Crime",
+    "rating": 7,
+    "description": "A crime story filled with difficult loyalties and tense confrontations, featuring Robert De Niro and James Woods.",
+    "actors": [
+      "Robert De Niro",
+      "James Woods"
+    ],
+    "watchdate": "12.09.2022"
+  },
+  {
+    "title": "Once Upon a Time in the West",
+    "dateOfRelease": "04.07.1969",
+    "genre": "Western",
+    "rating": 7,
+    "description": "A mysterious stranger enters a conflict over land and revenge.",
+    "actors": [
+      "Henry Fonda",
+      "Charles Bronson"
+    ],
+    "watchdate": "24.06.2022"
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "dateOfRelease": "19.11.1975",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A rebellious patient clashes with authority inside a psychiatric institution.",
+    "actors": [
+      "Jack Nicholson",
+      "Louise Fletcher"
+    ],
+    "watchdate": "29.10.2025"
+  },
+  {
+    "title": "Pan's Labyrinth",
+    "dateOfRelease": "19.01.2007",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "A young girl escapes into a dark fantasy world during political turmoil.",
+    "actors": [
+      "Ivana Baquero",
+      "Ariadna Gil"
+    ],
+    "watchdate": "30.05.2024"
+  },
+  {
+    "title": "Parasite",
+    "dateOfRelease": "08.11.2019",
+    "genre": "Comedy",
+    "rating": 7,
+    "description": "Two families from different social classes become entangled through deception.",
+    "actors": [
+      "Kang-ho Song",
+      "Sun-kyun Lee"
+    ],
+    "watchdate": "22.12.2023"
+  },
+  {
+    "title": "Pather Panchali",
+    "dateOfRelease": "26.08.1955",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "A dramatic story of human struggles and unexpected turning points featuring Kanu Bannerjee and Karuna Bannerjee.",
+    "actors": [
+      "Kanu Bannerjee",
+      "Karuna Bannerjee"
+    ],
+    "watchdate": "27.06.2026"
+  },
+  {
+    "title": "Paths of Glory",
+    "dateOfRelease": "25.12.1957",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A military officer challenges the injustice inflicted on his soldiers.",
+    "actors": [
+      "Kirk Douglas",
+      "Ralph Meeker"
+    ],
+    "watchdate": "08.05.2025"
+  },
+  {
+    "title": "Persona",
+    "dateOfRelease": "16.03.1967",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "A character-driven drama featuring Bibi Andersson and Liv Ullmann, exploring difficult decisions and their consequences.",
+    "actors": [
+      "Bibi Andersson",
+      "Liv Ullmann"
+    ],
+    "watchdate": "12.01.2026"
+  },
+  {
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "dateOfRelease": "09.07.2003",
+    "genre": "Action",
+    "rating": 9,
+    "description": "An eccentric pirate joins a daring quest involving a cursed ship.",
+    "actors": [
+      "Johnny Depp",
+      "Geoffrey Rush"
+    ],
+    "watchdate": "29.05.2024"
+  },
+  {
+    "title": "Platoon",
+    "dateOfRelease": "06.02.1987",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "A young soldier confronts the chaos and moral conflict of war.",
+    "actors": [
+      "Charlie Sheen",
+      "Tom Berenger"
+    ],
+    "watchdate": "17.09.2021"
+  },
+  {
+    "title": "Princess Mononoke",
+    "dateOfRelease": "19.12.1997",
+    "genre": "Animation",
+    "rating": 10,
+    "description": "A young warrior enters a conflict between nature and industrial expansion.",
+    "actors": [
+      "Yôji Matsuda",
+      "Yuriko Ishida"
+    ],
+    "watchdate": "09.10.2025"
+  },
+  {
+    "title": "Prisoners",
+    "dateOfRelease": "20.09.2013",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A desperate father takes matters into his own hands after a disappearance.",
+    "actors": [
+      "Hugh Jackman",
+      "Jake Gyllenhaal"
+    ],
+    "watchdate": "05.08.2021"
+  },
+  {
+    "title": "Psycho",
+    "dateOfRelease": "08.09.1960",
+    "genre": "Horror",
+    "rating": 8,
+    "description": "A traveler stops at a remote motel with a deeply unsettling secret.",
+    "actors": [
+      "Anthony Perkins",
+      "Janet Leigh"
+    ],
+    "watchdate": "06.08.2024"
+  },
+  {
+    "title": "Pulp Fiction",
+    "dateOfRelease": "14.10.1994",
+    "genre": "Crime",
+    "rating": 8,
+    "description": "Several interconnected stories unfold in the Los Angeles criminal underworld.",
+    "actors": [
+      "John Travolta",
+      "Uma Thurman"
+    ],
+    "watchdate": "14.03.2026"
+  },
+  {
+    "title": "Raging Bull",
+    "dateOfRelease": "19.12.1980",
+    "genre": "Biography",
+    "rating": 8,
+    "description": "A boxer’s talent and destructive behavior shape his turbulent career.",
+    "actors": [
+      "Robert De Niro",
+      "Cathy Moriarty"
+    ],
+    "watchdate": "05.08.2023"
+  },
+  {
+    "title": "Ran",
+    "dateOfRelease": "01.06.1985",
+    "genre": "Action",
+    "rating": 8,
+    "description": "An action-packed adventure in which characters portrayed by Tatsuya Nakadai and Akira Terao face mounting danger.",
+    "actors": [
+      "Tatsuya Nakadai",
+      "Akira Terao"
+    ],
+    "watchdate": "20.11.2021"
+  },
+  {
+    "title": "Rashomon",
+    "dateOfRelease": "26.12.1951",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A suspenseful tale about secrets, criminal choices, and their consequences starring Toshirô Mifune and Machiko Kyô.",
+    "actors": [
+      "Toshirô Mifune",
+      "Machiko Kyô"
+    ],
+    "watchdate": "17.04.2024"
+  },
+  {
+    "title": "Ratatouille",
+    "dateOfRelease": "29.06.2007",
+    "genre": "Animation",
+    "rating": 8,
+    "description": "A rat with a passion for cooking pursues a surprising dream.",
+    "actors": [
+      "Brad Garrett",
+      "Lou Romano"
+    ],
+    "watchdate": "08.03.2021"
+  },
+  {
+    "title": "Rear Window",
+    "dateOfRelease": "01.09.1954",
+    "genre": "Mystery",
+    "rating": 9,
+    "description": "An injured photographer becomes suspicious of a neighbor across the courtyard.",
+    "actors": [
+      "James Stewart",
+      "Grace Kelly"
+    ],
+    "watchdate": "27.01.2022"
+  },
+  {
+    "title": "Rebecca",
+    "dateOfRelease": "12.04.1940",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "A character-driven drama featuring Laurence Olivier and Joan Fontaine, exploring difficult decisions and their consequences.",
+    "actors": [
+      "Laurence Olivier",
+      "Joan Fontaine"
+    ],
+    "watchdate": "26.12.2023"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "dateOfRelease": "15.12.2000",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "Four lives unravel under the weight of addiction and obsession.",
+    "actors": [
+      "Ellen Burstyn",
+      "Jared Leto"
+    ],
+    "watchdate": "04.02.2026"
+  },
+  {
+    "title": "Reservoir Dogs",
+    "dateOfRelease": "02.09.1992",
+    "genre": "Crime",
+    "rating": 8,
+    "description": "A botched robbery causes distrust among a group of criminals.",
+    "actors": [
+      "Harvey Keitel",
+      "Tim Roth"
+    ],
+    "watchdate": "18.12.2025"
+  },
+  {
+    "title": "Rocky",
+    "dateOfRelease": "03.12.1976",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "An underdog boxer earns an unexpected chance to prove himself.",
+    "actors": [
+      "Sylvester Stallone",
+      "Talia Shire"
+    ],
+    "watchdate": "05.12.2025"
+  },
+  {
+    "title": "Room",
+    "dateOfRelease": "22.01.2016",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "A mother and child rebuild their lives after years of captivity.",
+    "actors": [
+      "Brie Larson",
+      "Jacob Tremblay"
+    ],
+    "watchdate": "08.06.2026"
+  },
+  {
+    "title": "Rush",
+    "dateOfRelease": "27.09.2013",
+    "genre": "Action",
+    "rating": 8,
+    "description": "Two Formula One drivers develop an intense rivalry.",
+    "actors": [
+      "Daniel Brühl",
+      "Chris Hemsworth"
+    ],
+    "watchdate": "16.03.2023"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "dateOfRelease": "24.07.1998",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A military squad travels through wartime France to locate one soldier.",
+    "actors": [
+      "Tom Hanks",
+      "Matt Damon"
+    ],
+    "watchdate": "12.07.2024"
+  },
+  {
+    "title": "Scarface",
+    "dateOfRelease": "09.12.1983",
+    "genre": "Crime",
+    "rating": 8,
+    "description": "An ambitious immigrant builds a criminal empire in Miami.",
+    "actors": [
+      "Al Pacino",
+      "Michelle Pfeiffer"
+    ],
+    "watchdate": "18.12.2022"
+  },
+  {
+    "title": "Schindler's List",
+    "dateOfRelease": "04.02.1994",
+    "genre": "Biography",
+    "rating": 8,
+    "description": "A factory owner risks his position to protect Jewish workers during World War II.",
+    "actors": [
+      "Liam Neeson",
+      "Ralph Fiennes"
+    ],
+    "watchdate": "18.06.2021"
+  },
+  {
+    "title": "Se7en",
+    "dateOfRelease": "22.09.1995",
+    "genre": "Crime",
+    "rating": 10,
+    "description": "Two detectives pursue a killer whose crimes follow a disturbing pattern.",
+    "actors": [
+      "Morgan Freeman",
+      "Brad Pitt"
+    ],
+    "watchdate": "30.05.2023"
+  },
+  {
+    "title": "Seven Samurai",
+    "dateOfRelease": "19.11.1956",
+    "genre": "Action",
+    "rating": 9,
+    "description": "A village hires warriors to defend its people from repeated bandit attacks.",
+    "actors": [
+      "Toshirô Mifune",
+      "Takashi Shimura"
+    ],
+    "watchdate": "07.04.2021"
+  },
+  {
+    "title": "Sherlock Jr.",
+    "dateOfRelease": "11.05.1924",
+    "genre": "Action",
+    "rating": 10,
+    "description": "A fast-moving action story featuring Buster Keaton and Kathryn McGuire, with dangerous choices and high stakes.",
+    "actors": [
+      "Buster Keaton",
+      "Kathryn McGuire"
+    ],
+    "watchdate": "01.07.2023"
+  },
+  {
+    "title": "Shutter Island",
+    "dateOfRelease": "19.02.2010",
+    "genre": "Mystery",
+    "rating": 8,
+    "description": "A marshal investigates a disappearance at an isolated institution.",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Emily Mortimer"
+    ],
+    "watchdate": "20.12.2023"
+  },
+  {
+    "title": "Singin' in the Rain",
+    "dateOfRelease": "11.04.1952",
+    "genre": "Comedy",
+    "rating": 7,
+    "description": "Movie stars struggle through Hollywood’s transition to sound films.",
+    "actors": [
+      "Gene Kelly",
+      "Donald O'Connor"
+    ],
+    "watchdate": "24.10.2026"
+  },
+  {
+    "title": "Snatch",
+    "dateOfRelease": "19.01.2001",
+    "genre": "Comedy",
+    "rating": 7,
+    "description": "A missing diamond connects gangsters, boxers, and small-time criminals.",
+    "actors": [
+      "Jason Statham",
+      "Brad Pitt"
+    ],
+    "watchdate": "26.10.2026"
+  },
+  {
+    "title": "Some Like It Hot",
+    "dateOfRelease": "19.03.1959",
+    "genre": "Comedy",
+    "rating": 9,
+    "description": "A comedy of misunderstandings and surprises featuring Marilyn Monroe and Tony Curtis.",
+    "actors": [
+      "Marilyn Monroe",
+      "Tony Curtis"
+    ],
+    "watchdate": "02.04.2025"
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "dateOfRelease": "14.12.2018",
+    "genre": "Animation",
+    "rating": 8,
+    "description": "A teenager discovers other Spider-heroes across parallel universes.",
+    "actors": [
+      "Shameik Moore",
+      "Jake Johnson"
+    ],
+    "watchdate": "07.06.2024"
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "dateOfRelease": "17.12.2021",
+    "genre": "Action",
+    "rating": 7,
+    "description": "Peter Parker faces unexpected visitors from other universes.",
+    "actors": [
+      "Tom Holland",
+      "Zendaya"
+    ],
+    "watchdate": "10.10.2022"
+  },
+  {
+    "title": "Spirited Away",
+    "dateOfRelease": "28.03.2003",
+    "genre": "Animation",
+    "rating": 5,
+    "description": "A young girl enters a mysterious spirit world and must find her way home.",
+    "actors": [
+      "Daveigh Chase",
+      "Suzanne Pleshette"
+    ],
+    "watchdate": "12.05.2024"
+  },
+  {
+    "title": "Spotlight",
+    "dateOfRelease": "20.11.2015",
+    "genre": "Biography",
+    "rating": 8,
+    "description": "Investigative journalists uncover a far-reaching institutional scandal.",
+    "actors": [
+      "Mark Ruffalo",
+      "Michael Keaton"
+    ],
+    "watchdate": "28.07.2025"
+  },
+  {
+    "title": "Stand by Me",
+    "dateOfRelease": "22.08.1986",
+    "genre": "Adventure",
+    "rating": 8,
+    "description": "Four boys set out on a journey that tests their friendship.",
+    "actors": [
+      "Wil Wheaton",
+      "River Phoenix"
+    ],
+    "watchdate": "01.07.2024"
+  },
+  {
+    "title": "Star Wars",
+    "dateOfRelease": "25.05.1977",
+    "genre": "Action",
+    "rating": 8,
+    "description": "A farm boy joins a rebellion against a powerful galactic empire.",
+    "actors": [
+      "Mark Hamill",
+      "Harrison Ford"
+    ],
+    "watchdate": "30.11.2025"
+  },
+  {
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "dateOfRelease": "20.06.1980",
+    "genre": "Action",
+    "rating": 9,
+    "description": "The Rebel Alliance struggles as Luke Skywalker trains to confront Darth Vader.",
+    "actors": [
+      "Mark Hamill",
+      "Harrison Ford"
+    ],
+    "watchdate": "04.04.2024"
+  },
+  {
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "dateOfRelease": "25.05.1983",
+    "genre": "Action",
+    "rating": 9,
+    "description": "The rebels prepare a final strike against the Empire.",
+    "actors": [
+      "Mark Hamill",
+      "Harrison Ford"
+    ],
+    "watchdate": "22.02.2024"
+  },
+  {
+    "title": "Sunset Blvd.",
+    "dateOfRelease": "04.08.1950",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "A struggling screenwriter becomes involved with a forgotten film star.",
+    "actors": [
+      "William Holden",
+      "Gloria Swanson"
+    ],
+    "watchdate": "05.06.2021"
+  },
+  {
+    "title": "Taxi Driver",
+    "dateOfRelease": "09.02.1976",
+    "genre": "Crime",
+    "rating": 7,
+    "description": "An isolated cab driver becomes consumed by anger and alienation.",
+    "actors": [
+      "Robert De Niro",
+      "Jodie Foster"
+    ],
+    "watchdate": "02.08.2022"
+  },
+  {
+    "title": "Terminator 2: Judgment Day",
+    "dateOfRelease": "03.07.1991",
+    "genre": "Action",
+    "rating": 8,
+    "description": "An advanced machine protects a boy from a more dangerous pursuer.",
+    "actors": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton"
+    ],
+    "watchdate": "27.11.2022"
+  },
+  {
+    "title": "The 400 Blows",
+    "dateOfRelease": "16.11.1959",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A crime story filled with difficult loyalties and tense confrontations, featuring Jean-Pierre Léaud and Albert Rémy.",
+    "actors": [
+      "Jean-Pierre Léaud",
+      "Albert Rémy"
+    ],
+    "watchdate": "11.10.2024"
+  },
+  {
+    "title": "The Apartment",
+    "dateOfRelease": "29.06.1960",
+    "genre": "Comedy",
+    "rating": 9,
+    "description": "A comedy of misunderstandings and surprises featuring Jack Lemmon and Shirley MacLaine.",
+    "actors": [
+      "Jack Lemmon",
+      "Shirley MacLaine"
+    ],
+    "watchdate": "26.11.2025"
+  },
+  {
+    "title": "The Batman",
+    "dateOfRelease": "04.03.2022",
+    "genre": "Action",
+    "rating": 8,
+    "description": "A young Batman investigates a series of crimes in Gotham City.",
+    "actors": [
+      "Robert Pattinson",
+      "Zoë Kravitz"
+    ],
+    "watchdate": "13.03.2022"
+  },
+  {
+    "title": "The Battle of Algiers",
+    "dateOfRelease": "20.09.1967",
+    "genre": "Drama",
+    "rating": 10,
+    "description": "A moving drama about personal change, relationships, and choices, starring Brahim Hadjadj and Jean Martin.",
+    "actors": [
+      "Brahim Hadjadj",
+      "Jean Martin"
+    ],
+    "watchdate": "12.04.2025"
+  },
+  {
+    "title": "The Best Years of Our Lives",
+    "dateOfRelease": "29.05.1947",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "A moving drama about personal change, relationships, and choices, starring Myrna Loy and Dana Andrews.",
+    "actors": [
+      "Myrna Loy",
+      "Dana Andrews"
+    ],
+    "watchdate": "08.11.2025"
+  },
+  {
+    "title": "The Big Lebowski",
+    "dateOfRelease": "06.03.1998",
+    "genre": "Comedy",
+    "rating": 6,
+    "description": "A laid-back man is mistaken for someone else and pulled into a mystery.",
+    "actors": [
+      "Jeff Bridges",
+      "John Goodman"
+    ],
+    "watchdate": "20.03.2024"
+  },
+  {
+    "title": "The Boat",
+    "dateOfRelease": "10.02.1982",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "A dramatic story of human struggles and unexpected turning points featuring Jürgen Prochnow and Herbert Grönemeyer.",
+    "actors": [
+      "Jürgen Prochnow",
+      "Herbert Grönemeyer"
+    ],
+    "watchdate": "26.03.2025"
+  },
+  {
+    "title": "The Bridge on the River Kwai",
+    "dateOfRelease": "14.12.1957",
+    "genre": "Adventure",
+    "rating": 9,
+    "description": "An adventurous journey with unexpected challenges, featuring William Holden and Alec Guinness.",
+    "actors": [
+      "William Holden",
+      "Alec Guinness"
+    ],
+    "watchdate": "19.10.2021"
+  },
+  {
+    "title": "The Dark Knight",
+    "dateOfRelease": "18.07.2008",
+    "genre": "Action",
+    "rating": 9,
+    "description": "Batman faces a ruthless criminal whose chaos threatens to consume Gotham City.",
+    "actors": [
+      "Christian Bale",
+      "Heath Ledger"
+    ],
+    "watchdate": "28.01.2025"
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "dateOfRelease": "20.07.2012",
+    "genre": "Action",
+    "rating": 8,
+    "description": "Batman returns to face a formidable enemy threatening Gotham.",
+    "actors": [
+      "Christian Bale",
+      "Tom Hardy"
+    ],
+    "watchdate": "11.01.2021"
+  },
+  {
+    "title": "The Deer Hunter",
+    "dateOfRelease": "23.02.1979",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "A moving drama about personal change, relationships, and choices, starring Robert De Niro and Christopher Walken.",
+    "actors": [
+      "Robert De Niro",
+      "Christopher Walken"
+    ],
+    "watchdate": "14.08.2022"
+  },
+  {
+    "title": "The Departed",
+    "dateOfRelease": "06.10.2006",
+    "genre": "Crime",
+    "rating": 10,
+    "description": "An undercover officer and a criminal informant hunt for each other.",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Matt Damon"
+    ],
+    "watchdate": "05.07.2024"
+  },
+  {
+    "title": "The Elephant Man",
+    "dateOfRelease": "10.10.1980",
+    "genre": "Biography",
+    "rating": 10,
+    "description": "A doctor befriends a severely mistreated man in Victorian London.",
+    "actors": [
+      "Anthony Hopkins",
+      "John Hurt"
+    ],
+    "watchdate": "22.10.2025"
+  },
+  {
+    "title": "The Exorcist",
+    "dateOfRelease": "26.12.1973",
+    "genre": "Horror",
+    "rating": 10,
+    "description": "A mother seeks help as frightening events surround her daughter.",
+    "actors": [
+      "Ellen Burstyn",
+      "Max von Sydow"
+    ],
+    "watchdate": "02.04.2023"
+  },
+  {
+    "title": "The Father",
+    "dateOfRelease": "26.02.2021",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "An aging man struggles with an increasingly unreliable sense of reality.",
+    "actors": [
+      "Anthony Hopkins",
+      "Olivia Colman"
+    ],
+    "watchdate": "19.01.2026"
+  },
+  {
+    "title": "The General",
+    "dateOfRelease": "02.01.1927",
+    "genre": "Action",
+    "rating": 9,
+    "description": "An action-packed adventure in which characters portrayed by Buster Keaton and Marion Mack face mounting danger.",
+    "actors": [
+      "Buster Keaton",
+      "Marion Mack"
+    ],
+    "watchdate": "27.05.2021"
+  },
+  {
+    "title": "The Godfather",
+    "dateOfRelease": "24.03.1972",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A reluctant son is drawn into the dangerous business of his powerful crime family.",
+    "actors": [
+      "Marlon Brando",
+      "Al Pacino"
+    ],
+    "watchdate": "26.04.2021"
+  },
+  {
+    "title": "The Godfather: Part II",
+    "dateOfRelease": "18.12.1974",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "The Corleone family grows in power while its past casts a long shadow.",
+    "actors": [
+      "Al Pacino",
+      "Robert De Niro"
+    ],
+    "watchdate": "28.08.2021"
+  },
+  {
+    "title": "The Gold Rush",
+    "dateOfRelease": "13.07.1925",
+    "genre": "Adventure",
+    "rating": 9,
+    "description": "A sweeping adventure in which new encounters change everything, featuring Charles Chaplin and Mack Swain.",
+    "actors": [
+      "Charles Chaplin",
+      "Mack Swain"
+    ],
+    "watchdate": "17.05.2026"
+  },
+  {
+    "title": "The Good, the Bad and the Ugly",
+    "dateOfRelease": "29.12.1967",
+    "genre": "Adventure",
+    "rating": 7,
+    "description": "Three gunslingers compete to find hidden gold during the American Civil War.",
+    "actors": [
+      "Clint Eastwood",
+      "Eli Wallach"
+    ],
+    "watchdate": "06.11.2021"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "dateOfRelease": "28.03.2014",
+    "genre": "Adventure",
+    "rating": 10,
+    "description": "A hotel concierge and his assistant become involved in an eccentric mystery.",
+    "actors": [
+      "Ralph Fiennes",
+      "F. Murray Abraham"
+    ],
+    "watchdate": "26.11.2023"
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "dateOfRelease": "15.03.1940",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A moving drama about personal change, relationships, and choices, starring Henry Fonda and Jane Darwell.",
+    "actors": [
+      "Henry Fonda",
+      "Jane Darwell"
+    ],
+    "watchdate": "09.05.2023"
+  },
+  {
+    "title": "The Great Dictator",
+    "dateOfRelease": "07.03.1941",
+    "genre": "Comedy",
+    "rating": 8,
+    "description": "A humble barber is mistaken for a powerful authoritarian leader.",
+    "actors": [
+      "Charles Chaplin",
+      "Paulette Goddard"
+    ],
+    "watchdate": "30.01.2022"
+  },
+  {
+    "title": "The Great Escape",
+    "dateOfRelease": "04.07.1963",
+    "genre": "Adventure",
+    "rating": 8,
+    "description": "A story of exploration, risk, and discovery starring Steve McQueen and James Garner.",
+    "actors": [
+      "Steve McQueen",
+      "James Garner"
+    ],
+    "watchdate": "30.11.2024"
+  },
+  {
+    "title": "The Green Mile",
+    "dateOfRelease": "10.12.1999",
+    "genre": "Crime",
+    "rating": 8,
+    "description": "A prison guard witnesses events that challenge his understanding of justice.",
+    "actors": [
+      "Tom Hanks",
+      "Michael Clarke Duncan"
+    ],
+    "watchdate": "08.06.2026"
+  },
+  {
+    "title": "The Handmaiden",
+    "dateOfRelease": "01.06.2016",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "A dramatic story of human struggles and unexpected turning points featuring Kim Min-hee and Ha Jung-woo.",
+    "actors": [
+      "Kim Min-hee",
+      "Ha Jung-woo"
+    ],
+    "watchdate": "22.01.2026"
+  },
+  {
+    "title": "The Help",
+    "dateOfRelease": "10.08.2011",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "Women in Mississippi share experiences that challenge social injustice.",
+    "actors": [
+      "Emma Stone",
+      "Viola Davis"
+    ],
+    "watchdate": "26.05.2024"
+  },
+  {
+    "title": "The Hunt",
+    "dateOfRelease": "10.01.2013",
+    "genre": "Drama",
+    "rating": 10,
+    "description": "A teacher’s life changes after a damaging accusation spreads.",
+    "actors": [
+      "Mads Mikkelsen",
+      "Thomas Bo Larsen"
+    ],
+    "watchdate": "02.06.2025"
+  },
+  {
+    "title": "The Incredibles",
+    "dateOfRelease": "05.11.2004",
+    "genre": "Animation",
+    "rating": 5,
+    "description": "A family of superheroes returns to action while hiding its powers.",
+    "actors": [
+      "Craig T. Nelson",
+      "Samuel L. Jackson"
+    ],
+    "watchdate": "09.07.2021"
+  },
+  {
+    "title": "The Intouchables",
+    "dateOfRelease": "02.11.2011",
+    "genre": "Biography",
+    "rating": 8,
+    "description": "An unlikely friendship develops between a wealthy man and his caregiver.",
+    "actors": [
+      "François Cluzet",
+      "Omar Sy"
+    ],
+    "watchdate": "11.01.2024"
+  },
+  {
+    "title": "The Kid",
+    "dateOfRelease": "06.02.1921",
+    "genre": "Comedy",
+    "rating": 9,
+    "description": "A comedy of misunderstandings and surprises featuring Charles Chaplin and Edna Purviance.",
+    "actors": [
+      "Charles Chaplin",
+      "Edna Purviance"
+    ],
+    "watchdate": "11.06.2022"
+  },
+  {
+    "title": "The Lion King",
+    "dateOfRelease": "24.06.1994",
+    "genre": "Animation",
+    "rating": 5,
+    "description": "A young lion must reclaim his place after a tragedy divides his family.",
+    "actors": [
+      "Matthew Broderick",
+      "Jeremy Irons"
+    ],
+    "watchdate": "03.09.2025"
+  },
+  {
+    "title": "The Lives of Others",
+    "dateOfRelease": "30.03.2007",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A surveillance officer begins to question the system he serves.",
+    "actors": [
+      "Ulrich Mühe",
+      "Martina Gedeck"
+    ],
+    "watchdate": "11.01.2023"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "dateOfRelease": "19.12.2001",
+    "genre": "Action",
+    "rating": 8,
+    "description": "A young hobbit joins an unlikely fellowship to destroy a dangerous ring.",
+    "actors": [
+      "Elijah Wood",
+      "Ian McKellen"
+    ],
+    "watchdate": "14.07.2022"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "dateOfRelease": "17.12.2003",
+    "genre": "Action",
+    "rating": 7,
+    "description": "Middle-earth faces its final battle as Frodo approaches Mount Doom.",
+    "actors": [
+      "Elijah Wood",
+      "Viggo Mortensen"
+    ],
+    "watchdate": "01.04.2024"
+  },
+  {
+    "title": "The Lord of the Rings: The Two Towers",
+    "dateOfRelease": "18.12.2002",
+    "genre": "Action",
+    "rating": 7,
+    "description": "A fractured fellowship fights to resist the growing power of Sauron.",
+    "actors": [
+      "Elijah Wood",
+      "Ian McKellen"
+    ],
+    "watchdate": "13.09.2026"
+  },
+  {
+    "title": "The Passion of Joan of Arc",
+    "dateOfRelease": "25.10.1928",
+    "genre": "Biography",
+    "rating": 8,
+    "description": "A film inspired by real events, with performances by Maria Falconetti and Eugene Silvain.",
+    "actors": [
+      "Maria Falconetti",
+      "Eugene Silvain"
+    ],
+    "watchdate": "14.03.2021"
+  },
+  {
+    "title": "The Pianist",
+    "dateOfRelease": "28.03.2003",
+    "genre": "Biography",
+    "rating": 9,
+    "description": "A gifted musician struggles to survive the occupation of Warsaw.",
+    "actors": [
+      "Adrien Brody",
+      "Thomas Kretschmann"
+    ],
+    "watchdate": "20.04.2024"
+  },
+  {
+    "title": "The Prestige",
+    "dateOfRelease": "20.10.2006",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "Two rival illusionists push their competition to dangerous extremes.",
+    "actors": [
+      "Christian Bale",
+      "Hugh Jackman"
+    ],
+    "watchdate": "03.11.2022"
+  },
+  {
+    "title": "The Secret in Their Eyes",
+    "dateOfRelease": "21.05.2010",
+    "genre": "Drama",
+    "rating": 8,
+    "description": "A dramatic story of human struggles and unexpected turning points featuring Ricardo Darín and Soledad Villamil.",
+    "actors": [
+      "Ricardo Darín",
+      "Soledad Villamil"
+    ],
+    "watchdate": "18.03.2025"
+  },
+  {
+    "title": "The Seventh Seal",
+    "dateOfRelease": "13.10.1958",
+    "genre": "Drama",
+    "rating": 6,
+    "description": "A dramatic story of human struggles and unexpected turning points featuring Max von Sydow and Gunnar Björnstrand.",
+    "actors": [
+      "Max von Sydow",
+      "Gunnar Björnstrand"
+    ],
+    "watchdate": "20.02.2024"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "dateOfRelease": "14.10.1994",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "Two prisoners form an enduring friendship and find hope behind prison walls.",
+    "actors": [
+      "Tim Robbins",
+      "Morgan Freeman"
+    ],
+    "watchdate": "23.09.2026"
+  },
+  {
+    "title": "The Shining",
+    "dateOfRelease": "13.06.1980",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "An isolated family faces terrifying events in an empty mountain hotel.",
+    "actors": [
+      "Jack Nicholson",
+      "Shelley Duvall"
+    ],
+    "watchdate": "06.12.2024"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "dateOfRelease": "14.02.1991",
+    "genre": "Crime",
+    "rating": 7,
+    "description": "An FBI trainee seeks help from a brilliant imprisoned murderer.",
+    "actors": [
+      "Jodie Foster",
+      "Anthony Hopkins"
+    ],
+    "watchdate": "20.01.2023"
+  },
+  {
+    "title": "The Sixth Sense",
+    "dateOfRelease": "06.08.1999",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A child psychologist meets a boy with a frightening secret.",
+    "actors": [
+      "Bruce Willis",
+      "Haley Joel Osment"
+    ],
+    "watchdate": "24.09.2025"
+  },
+  {
+    "title": "The Sound of Music",
+    "dateOfRelease": "01.04.1965",
+    "genre": "Biography",
+    "rating": 9,
+    "description": "A film inspired by real events, with performances by Julie Andrews and Christopher Plummer.",
+    "actors": [
+      "Julie Andrews",
+      "Christopher Plummer"
+    ],
+    "watchdate": "24.01.2026"
+  },
+  {
+    "title": "The Sting",
+    "dateOfRelease": "25.12.1973",
+    "genre": "Comedy",
+    "rating": 9,
+    "description": "Two con artists devise an elaborate scheme to trick a mob boss.",
+    "actors": [
+      "Paul Newman",
+      "Robert Redford"
+    ],
+    "watchdate": "23.08.2023"
+  },
+  {
+    "title": "The Terminator",
+    "dateOfRelease": "26.10.1984",
+    "genre": "Action",
+    "rating": 7,
+    "description": "A relentless cyborg travels back in time to kill a young woman.",
+    "actors": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton"
+    ],
+    "watchdate": "19.12.2023"
+  },
+  {
+    "title": "The Thing",
+    "dateOfRelease": "25.06.1982",
+    "genre": "Horror",
+    "rating": 8,
+    "description": "Researchers in Antarctica confront an entity that can imitate them.",
+    "actors": [
+      "Kurt Russell",
+      "Wilford Brimley"
+    ],
+    "watchdate": "29.08.2026"
+  },
+  {
+    "title": "The Third Man",
+    "dateOfRelease": "03.09.1949",
+    "genre": "Film-Noir",
+    "rating": 9,
+    "description": "A shadowy noir thriller of secrets and shifting loyalties, featuring Orson Welles and Joseph Cotten.",
+    "actors": [
+      "Orson Welles",
+      "Joseph Cotten"
+    ],
+    "watchdate": "29.05.2022"
+  },
+  {
+    "title": "The Treasure of the Sierra Madre",
+    "dateOfRelease": "24.01.1948",
+    "genre": "Adventure",
+    "rating": 9,
+    "description": "A story of exploration, risk, and discovery starring Humphrey Bogart and Walter Huston.",
+    "actors": [
+      "Humphrey Bogart",
+      "Walter Huston"
+    ],
+    "watchdate": "05.03.2026"
+  },
+  {
+    "title": "The Truman Show",
+    "dateOfRelease": "05.06.1998",
+    "genre": "Comedy",
+    "rating": 7,
+    "description": "A man begins to suspect that his ordinary world is carefully staged.",
+    "actors": [
+      "Jim Carrey",
+      "Ed Harris"
+    ],
+    "watchdate": "01.07.2026"
+  },
+  {
+    "title": "The Usual Suspects",
+    "dateOfRelease": "16.08.1995",
+    "genre": "Crime",
+    "rating": 6,
+    "description": "A survivor recounts a mysterious crime with a tangled web of suspects.",
+    "actors": [
+      "Kevin Spacey",
+      "Gabriel Byrne"
+    ],
+    "watchdate": "21.06.2022"
+  },
+  {
+    "title": "The Wages of Fear",
+    "dateOfRelease": "16.02.1955",
+    "genre": "Adventure",
+    "rating": 9,
+    "description": "A sweeping adventure in which new encounters change everything, featuring Yves Montand and Charles Vanel.",
+    "actors": [
+      "Yves Montand",
+      "Charles Vanel"
+    ],
+    "watchdate": "02.10.2023"
+  },
+  {
+    "title": "The Wizard of Oz",
+    "dateOfRelease": "25.08.1939",
+    "genre": "Adventure",
+    "rating": 8,
+    "description": "A girl is swept into a magical land and searches for home.",
+    "actors": [
+      "Judy Garland",
+      "Frank Morgan"
+    ],
+    "watchdate": "21.04.2022"
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "dateOfRelease": "25.12.2013",
+    "genre": "Biography",
+    "rating": 9,
+    "description": "A charismatic broker builds an extravagant career through financial fraud.",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Jonah Hill"
+    ],
+    "watchdate": "14.08.2021"
+  },
+  {
+    "title": "There Will Be Blood",
+    "dateOfRelease": "25.01.2008",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A driven oil prospector’s ambition tears through his relationships.",
+    "actors": [
+      "Daniel Day-Lewis",
+      "Paul Dano"
+    ],
+    "watchdate": "04.12.2024"
+  },
+  {
+    "title": "Three Billboards Outside Ebbing, Missouri",
+    "dateOfRelease": "01.12.2017",
+    "genre": "Comedy",
+    "rating": 9,
+    "description": "A grieving mother challenges local police through a public protest.",
+    "actors": [
+      "Frances McDormand",
+      "Woody Harrelson"
+    ],
+    "watchdate": "13.03.2021"
+  },
+  {
+    "title": "To Be or Not to Be",
+    "dateOfRelease": "06.03.1942",
+    "genre": "Comedy",
+    "rating": 8,
+    "description": "A witty comedy about people facing unexpected complications with Carole Lombard and Jack Benny.",
+    "actors": [
+      "Carole Lombard",
+      "Jack Benny"
+    ],
+    "watchdate": "19.10.2025"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "dateOfRelease": "16.03.1963",
+    "genre": "Crime",
+    "rating": 8,
+    "description": "A lawyer defends a man against a deeply prejudiced community.",
+    "actors": [
+      "Gregory Peck",
+      "John Megna"
+    ],
+    "watchdate": "10.06.2024"
+  },
+  {
+    "title": "Tokyo Story",
+    "dateOfRelease": "13.03.1972",
+    "genre": "Drama",
+    "rating": 7,
+    "description": "A moving drama about personal change, relationships, and choices, starring Chishû Ryû and Chieko Higashiyama.",
+    "actors": [
+      "Chishû Ryû",
+      "Chieko Higashiyama"
+    ],
+    "watchdate": "11.05.2024"
+  },
+  {
+    "title": "Toy Story",
+    "dateOfRelease": "22.11.1995",
+    "genre": "Animation",
+    "rating": 6,
+    "description": "A group of toys struggles with jealousy when a new favorite arrives.",
+    "actors": [
+      "Tom Hanks",
+      "Tim Allen"
+    ],
+    "watchdate": "15.07.2023"
+  },
+  {
+    "title": "Toy Story 3",
+    "dateOfRelease": "18.06.2010",
+    "genre": "Animation",
+    "rating": 9,
+    "description": "The toys face an uncertain future as their owner grows up.",
+    "actors": [
+      "Tom Hanks",
+      "Tim Allen"
+    ],
+    "watchdate": "21.03.2026"
+  },
+  {
+    "title": "Trainspotting",
+    "dateOfRelease": "09.08.1996",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "Friends in Edinburgh struggle with addiction and difficult choices.",
+    "actors": [
+      "Ewan McGregor",
+      "Ewen Bremner"
+    ],
+    "watchdate": "24.02.2024"
+  },
+  {
+    "title": "Unforgiven",
+    "dateOfRelease": "07.08.1992",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "An aging gunslinger accepts one last dangerous assignment.",
+    "actors": [
+      "Clint Eastwood",
+      "Gene Hackman"
+    ],
+    "watchdate": "05.02.2023"
+  },
+  {
+    "title": "Up",
+    "dateOfRelease": "29.05.2009",
+    "genre": "Animation",
+    "rating": 9,
+    "description": "An elderly adventurer lifts his house into the sky and discovers a companion.",
+    "actors": [
+      "Edward Asner",
+      "Jordan Nagai"
+    ],
+    "watchdate": "18.01.2026"
+  },
+  {
+    "title": "V for Vendetta",
+    "dateOfRelease": "17.03.2006",
+    "genre": "Action",
+    "rating": 9,
+    "description": "A masked rebel confronts an oppressive government.",
+    "actors": [
+      "Hugo Weaving",
+      "Natalie Portman"
+    ],
+    "watchdate": "29.01.2023"
+  },
+  {
+    "title": "Vertigo",
+    "dateOfRelease": "22.05.1958",
+    "genre": "Mystery",
+    "rating": 9,
+    "description": "A retired detective becomes obsessed with a mysterious woman.",
+    "actors": [
+      "James Stewart",
+      "Kim Novak"
+    ],
+    "watchdate": "08.03.2023"
+  },
+  {
+    "title": "WALL·E",
+    "dateOfRelease": "27.06.2008",
+    "genre": "Animation",
+    "rating": 8,
+    "description": "A lonely cleanup robot discovers friendship and a new purpose.",
+    "actors": [
+      "Ben Burtt",
+      "Elissa Knight"
+    ],
+    "watchdate": "04.10.2026"
+  },
+  {
+    "title": "Warrior",
+    "dateOfRelease": "09.09.2011",
+    "genre": "Action",
+    "rating": 8,
+    "description": "Two estranged brothers enter a high-stakes mixed martial arts competition.",
+    "actors": [
+      "Tom Hardy",
+      "Nick Nolte"
+    ],
+    "watchdate": "30.04.2023"
+  },
+  {
+    "title": "Whiplash",
+    "dateOfRelease": "15.10.2014",
+    "genre": "Drama",
+    "rating": 9,
+    "description": "A determined drummer faces relentless pressure from a demanding instructor.",
+    "actors": [
+      "Miles Teller",
+      "J.K. Simmons"
+    ],
+    "watchdate": "04.03.2025"
+  },
+  {
+    "title": "Wild Strawberries",
+    "dateOfRelease": "22.06.1959",
+    "genre": "Drama",
+    "rating": 6,
+    "description": "A moving drama about personal change, relationships, and choices, starring Victor Sjöström and Bibi Andersson.",
+    "actors": [
+      "Victor Sjöström",
+      "Bibi Andersson"
+    ],
+    "watchdate": "03.01.2023"
+  },
+  {
+    "title": "Wild Tales",
+    "dateOfRelease": "21.08.2014",
+    "genre": "Comedy",
+    "rating": 9,
+    "description": "An entertaining story that finds humor in unusual situations, starring Darío Grandinetti and María Marull.",
+    "actors": [
+      "Darío Grandinetti",
+      "María Marull"
+    ],
+    "watchdate": "24.09.2023"
+  },
+  {
+    "title": "Witness for the Prosecution",
+    "dateOfRelease": "06.02.1958",
+    "genre": "Crime",
+    "rating": 9,
+    "description": "A gripping crime drama exploring deception and ambition with Tyrone Power and Marlene Dietrich.",
+    "actors": [
+      "Tyrone Power",
+      "Marlene Dietrich"
+    ],
+    "watchdate": "14.10.2025"
+  },
+  {
+    "title": "Yojimbo",
+    "dateOfRelease": "13.09.1961",
+    "genre": "Action",
+    "rating": 9,
+    "description": "An action-packed adventure in which characters portrayed by Toshirô Mifune and Eijirô Tôno face mounting danger.",
+    "actors": [
+      "Toshirô Mifune",
+      "Eijirô Tôno"
+    ],
+    "watchdate": "18.10.2025"
+  },
+  {
+    "title": "Your Name.",
+    "dateOfRelease": "07.04.2017",
+    "genre": "Animation",
+    "rating": 9,
+    "description": "Two teenagers discover a mysterious connection between their lives.",
+    "actors": [
+      "Ryûnosuke Kamiki",
+      "Mone Kamishiraishi"
+    ],
+    "watchdate": "11.11.2026"
+  }
+]

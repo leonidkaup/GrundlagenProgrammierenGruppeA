@@ -15,7 +15,7 @@ class Film:
 
     def to_dict(self) -> dict[str, Any]:
         return {
-            "titel": self.title,
+            "title": self.title,
             "dateOfRelease": self.date_of_release,
             "genre": self.genre,
             "rating": self.rating,
@@ -31,12 +31,12 @@ class Film:
         if set(data.keys()) != {"title","dateOfRelease","genre","rating","description","actors","watchdate"}:
             raise ValueError(
                 f"Validation failed: keys are {set(data.keys())}; expected "
-                "titel, dateOfRelease, genre, rating, description, actors, watchdate"
+                "title, dateOfRelease, genre, rating, description, actors, watchdate"
             )
         
         # check that values have correct datatype and required strings are not empty
         # title should not be empty
-        if type(data["titel"]) != str or len(data["title"]) < 1:
+        if type(data["title"]) != str or len(data["title"]) < 1:
             raise ValueError(
                 f"Validation failed: title is {data['title']}; "
                 "expected a non-empty string"

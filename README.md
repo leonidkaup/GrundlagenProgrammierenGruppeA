@@ -10,22 +10,46 @@ This Python console application provides an easy way to manage a list of movies 
 - Jonathan Engel
 - Léon Albert
 
-## Features
-Our features are listed in GitHub as issues. They're created as user-stories.
 
-- Create new movies
-- View the movie collection
-- Update existing movies
-- Delete movies
-- Rate movies
-- Search movies by title
-- Filter movies by genre or contributor
-- Sort movies by rating
-- Display the top or bottom X rated movies
-- Import movie data from a file
-- Export movie data to a file
-- Persist movie data between application runs
-- Validate user input and imported data
+## Organisation of User Stories
+We have created and organized our user stories as GitHub Issues and added a dedicated label and a uniform template to use GitHub as our centralized project organization platform.
+
+### Labels
+In addition to the "User Story" label, we created a "Setup Init" label to identify and assign work that differs from the user stories:
+![alt text](image.png)
+
+### Template
+Our user story template follows the pattern "As a …, I want to …, so that …" and includes clearly defined acceptance criteria.
+
+### User Stories 
+#### [Filter and Sort Movies](https://github.com/leonidkaup/GrundlagenProgrammierenGruppeA/issues/13)
+*Explanation:* As a user, I should not only be able to print my entire movie list, as this can become difficult to navigate when it contains many entries. Filtering and sorting help me identify the highest and lowest rated movies or find a specific movie when deciding whether to recommend it to a friend.
+#### [Rate a Movie](https://github.com/leonidkaup/GrundlagenProgrammierenGruppeA/issues/12)
+*Explanation:*
+#### [Read a Movie](https://github.com/leonidkaup/GrundlagenProgrammierenGruppeA/issues/11)
+*Explanation:*
+#### [Update a Movie](https://github.com/leonidkaup/GrundlagenProgrammierenGruppeA/issues/10)
+*Explanation:*
+#### [Delete a Movie](https://github.com/leonidkaup/GrundlagenProgrammierenGruppeA/issues/9)
+*Explanation:*
+#### [Create a Movie](https://github.com/leonidkaup/GrundlagenProgrammierenGruppeA/issues/8)
+*Explanation:*
+#### [Export a Movie List](https://github.com/leonidkaup/GrundlagenProgrammierenGruppeA/issues/7)
+*Explanation:* This feature allows users to share their current movie list with a friend, eliminating the need to enter every movie manually. It can also be used to provide a friend with a ready-made watchlist or print the list as a PDF, allowing users to share it in a readable format or keep it as a semi-structured personal record. also you can print it as a pdf in order shre it in a way another person can actually read it or yourself wiith beeing in a semi structured format.
+#### [Persist the Current Movie List](https://github.com/leonidkaup/GrundlagenProgrammierenGruppeA/issues/6)
+Explenation:
+#### [Import a Movie List](https://github.com/leonidkaup/GrundlagenProgrammierenGruppeA/issues/5)
+Explenation: 
+#### [Movie List Gets Imported](https://github.com/leonidkaup/GrundlagenProgrammierenGruppeA/issues/4)
+Explanation: Importing lists from friends or the internet allows users to add movies without entering every title manually and helps build a comprehensive movie library.
+## Implementation Documentation
+### Data Model and Film Object
+### Data Validation
+### Error Handling
+### File Processing
+
+## Team & Contributions
+
 
 ## Installation
 
@@ -74,19 +98,3 @@ project/
 └── storage/
     └── ...
 ```
-
-The exact structure may change during development.
-
-## Data
-
-Movie data is stored persistently so that the collection is available again after restarting the application.
-
-The application also supports importing and exporting movie data.
-
-## Validation & Error Handling
-
-User input and data loaded from files are validated before being processed. Invalid input is handled without unexpectedly terminating the application.
-
-## Development
-
-The project is developed collaboratively using Git and GitHub. Features and requirements are tracked using GitHub Issues and User Stories with Acceptance Criteria.
