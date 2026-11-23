@@ -97,7 +97,7 @@ def import_file():
             print(f"Import was not successfull: {error}")
             return
 
-#Johnatan Engel
+#Jonathan  Engel
 # rates a film and stores the rating together with the watch date
 def rate_film():
     films = _load_films()
@@ -115,7 +115,7 @@ def rate_film():
     if _save_films(films):
         print(f"\"{film.title}\" rated {film.rating}/10, watched on {film.watch_date}.")
 
-#Johnatan Engel
+#Jonathan  Engel
 def _read_watch_date():
     while True:
         date_text = _read_date("Watch date (dd.mm.yyyy): ")
@@ -124,7 +124,7 @@ def _read_watch_date():
             print("The watch date cannot be in the future.")
             continue
         return date_text
-#Johnatan Engel
+#Jonathan  Engel
 # loads all persisted films as Film objects, returns None if the file is not valid
 def _load_films():
     try:
@@ -137,7 +137,7 @@ def _load_films():
     except (json.JSONDecodeError, KeyError, TypeError, PermissionError, ValueError) as error:
         print(f"The films could not be read: {error}")
         return None
-#Johnatan Engel
+#Jonathan  Engel
 # writes all films back to the JSON file, returns True if it worked
 def _save_films(films):
     try:
@@ -146,7 +146,7 @@ def _save_films(films):
     except OSError as error:
         print(f"The films could not be saved: {error}")
         return False
-#Johnatan Engel
+#Jonathan  Engel
 # shows all films numbered and lets the user pick one, returns the index
 def _select_film(films, action):
     if not films:
@@ -166,13 +166,13 @@ def _select_film(films, action):
             print(f"Please enter a number from 1 to {len(films)}.")
             continue
         return int(choice) - 1
-#Johnatan Engel
+#Jonathan  Engel
 # asks a yes/no question, only "y" counts as yes
 def _confirm(question):
     answer = input(f"{question} (y/n): ").strip().lower()
     return answer == "y"
 
-#Johnatan Engel
+#Jonathan  Engel
 # changes the data of an existing film, rating and watch date are changed by rate_film
 def update_film():
     films = _load_films()
@@ -204,14 +204,14 @@ def update_film():
     if _save_films(films):
         print(f"\"{updated_film.title}\" has been updated.")
 
-#Johnatan Engel
+#Jonathan  Engel
 def _read_text_or_keep(prompt, current):
     text = input(f"{prompt} [{current}]: ").strip()
 
     if text == "":
         return current
     return text
-#Johnatan Engel
+#Jonathan  Engel
 # the title must not be used by another film in the list
 def _read_title_or_keep(current, films, index):
     while True:
@@ -226,7 +226,7 @@ def _read_title_or_keep(current, films, index):
             print(f"A film called \"{title}\" already exists.")
             continue
         return title
-#Johnatan Engel
+#Jonathan  Engel
 def _read_date_or_keep(prompt, current):
     while True:
         date_text = input(f"{prompt} [{current}]: ").strip()
@@ -237,7 +237,7 @@ def _read_date_or_keep(prompt, current):
             return date_text
         else:
             print("Please enter a valid date in dd.mm.yyyy format.")
-#Johnatan Engel
+#Jonathan  Engel
 def _read_actors_or_keep(current):
     actors_text = input(f"Actors (comma-separated) [{', '.join(current)}]: ").strip()
 
@@ -254,7 +254,7 @@ def _print_film(film):
     print(f"Actors: {', '.join(film.actors)}")
     print(f"Watch date: {film.watch_date}")
 
-#Johnatan Engel
+#Jonathan  Engel
 # removes a film from the list after the user confirmed it
 def delete_film():
     films = _load_films()
