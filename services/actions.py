@@ -8,7 +8,7 @@ ACTIONS = {
     "delete_film": "Delete a film (not implemented yet).",
     "import_file": "Import films from a file (not implemented yet).",
     "export_films": "Export current film list",
-    "search_filter_sort_movie": "test",
+    "search_filter_sort_movie": "Search or Filter your Movielist and print it.",
     "help": "Show this list of commands.",
     "end": "Exit the program.",
 }

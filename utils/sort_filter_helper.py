@@ -82,8 +82,27 @@ def _print_search_results(films):
 
     print("\nMovies:")
     for film in films:
-        title = film.get("title", film.get("titel", "Unknown title"))
-        rating_value = film.get("rating")
+        title = film.get("title", "Unknown title")
+        date_of_release = film.get("dateOfRelease", "Unknown")
+        genre = film.get("genre", "Unknown")
+        rating_value = film.get("rating", "Not rated")
+        description = film.get("description", "No description")
+        actors = film.get("actors", [])
+        watch_date = film.get("watchdate", "Not watched")
+
         if rating_value is None:
             rating_value = "Not rated"
-        print(f"- {title} (Rating: {rating_value})")
+        if isinstance(actors, list):
+            actors = ", ".join(actors) if actors else "Unknown"
+        if not watch_date:
+            watch_date = "Not watched"
+
+        print(
+            f"- {title}\n"
+            f"  Date of release: {date_of_release}\n"
+            f"  Genre: {genre}\n"
+            f"  Rating: {rating_value}\n"
+            f"  Description: {description}\n"
+            f"  Actors: {actors}\n"
+            f"  Watch date: {watch_date}"
+        )
