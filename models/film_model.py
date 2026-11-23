@@ -15,7 +15,7 @@ class Film:
 
     def to_dict(self) -> dict[str, Any]:
         return {
-            "titel": self.title,
+            "title": self.title,
             "dateOfRelease": self.date_of_release,
             "genre": self.genre,
             "rating": self.rating,
@@ -28,17 +28,17 @@ class Film:
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "Film":
         # check if correct keys are present
-        if set(data.keys()) != {"titel","dateOfRelease","genre","rating","description","actors","watchdate"}:
+        if set(data.keys()) != {"title","dateOfRelease","genre","rating","description","actors","watchdate"}:
             raise ValueError(
                 f"Validation failed: keys are {set(data.keys())}; expected "
-                "titel, dateOfRelease, genre, rating, description, actors, watchdate"
+                "title, dateOfRelease, genre, rating, description, actors, watchdate"
             )
         
         # check that values have correct datatype and required strings are not empty
         # title should not be empty
-        if type(data["titel"]) != str or len(data["titel"]) < 1:
+        if type(data["title"]) != str or len(data["title"]) < 1:
             raise ValueError(
-                f"Validation failed: titel is {data['titel']}; "
+                f"Validation failed: title is {data['title']}; "
                 "expected a non-empty string"
             )
         # dateOfRelease should not be empty
@@ -87,7 +87,7 @@ class Film:
             )
 
         return cls(
-            title=data["titel"],
+            title=data["title"],
             date_of_release=data["dateOfRelease"],
             genre=data["genre"],
             rating=data["rating"],
