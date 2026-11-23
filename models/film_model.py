@@ -53,13 +53,21 @@ class Film:
                 f"Validation failed: genre is {data['genre']}; "
                 "expected a non-empty string"
             )
-        # rating is not mandatory in time of import
-        if data["rating"] is not None and ( not isinstance(data["rating"], int) or isinstance(data["rating"], bool) or not 1 <= data["rating"] <= 10):
+        
+        # rating is not mandatory in time of import splitted up for simpli
+        rating = data["rating"]
+        rating_is_valid = rating is None
+
+        if type(rating) is int:
+            rating_is_valid = 1 <= rating <= 10
+
+        if not rating_is_valid:
             raise ValueError(
-                f"Validation failed: rating is {data['rating']}"
-                f"(type: {type(data['rating'])}); "
+                f"Validation failed: rating is {rating}"
+                f"(type: {type(rating)}); "
                 "expected an integer or null"
             )
+        
         # description can be empty
         if type(data["description"]) != str:
             raise ValueError(
