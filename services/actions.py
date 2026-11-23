@@ -8,12 +8,15 @@ ACTIONS = {
     "update_film": "Update the data of a film.",
     "delete_film": "Delete a film from the list.",
     "import_file": "Import films from a file (not implemented yet).",
+    "export_films": "Export current film list",
+    "search_filter_sort_movie": "Search or Filter your Movielist and print it.",
     "help": "Show this list of commands.",
     "end": "Exit the program.",
 }
 
 
 # handles action and redirects to the appropriate service function
+# Léon Albert
 def handle_action(action):
     if action == "help":
         for name, description in ACTIONS.items():
