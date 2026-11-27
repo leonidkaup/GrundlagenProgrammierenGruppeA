@@ -27,7 +27,7 @@ def append_and_store_films(films):
     persisted_films.append(films)
     store_films(persisted_films)
 
-
+# Leonid Kaup
 # Store input list of this function in json
 def store_films(films):
     if films is not None:
