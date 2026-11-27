@@ -1467,13 +1467,13 @@
     "title": "My Neighbor Totoro",
     "dateOfRelease": "13.07.1990",
     "genre": "Animation",
-    "rating": 8,
+    "rating": null,
     "description": "Two sisters discover gentle forest spirits near their new home.",
     "actors": [
       "Hitoshi Takagi",
       "Noriko Hidaka"
     ],
-    "watchdate": "27.03.2021"
+    "watchdate": ""
   },
   {
     "title": "Network",
@@ -1767,13 +1767,13 @@
     "title": "Rebecca",
     "dateOfRelease": "12.04.1940",
     "genre": "Drama",
-    "rating": 8,
+    "rating": null,
     "description": "A character-driven drama featuring Laurence Olivier and Joan Fontaine, exploring difficult decisions and their consequences.",
     "actors": [
       "Laurence Olivier",
       "Joan Fontaine"
     ],
-    "watchdate": "26.12.2023"
+    "watchdate": ""
   },
   {
     "title": "Requiem for a Dream",
@@ -2823,13 +2823,13 @@
     "title": "Toy Story",
     "dateOfRelease": "22.11.1995",
     "genre": "Animation",
-    "rating": 6,
+    "rating": 5,
     "description": "A group of toys struggles with jealousy when a new favorite arrives.",
     "actors": [
       "Tom Hanks",
       "Tim Allen"
     ],
-    "watchdate": "15.07.2023"
+    "watchdate": "25.05.2025"
   },
   {
     "title": "Toy Story 3",
@@ -2967,13 +2967,13 @@
     "title": "Witness for the Prosecution",
     "dateOfRelease": "06.02.1958",
     "genre": "Crime",
-    "rating": 9,
+    "rating": null,
     "description": "A gripping crime drama exploring deception and ambition with Tyrone Power and Marlene Dietrich.",
     "actors": [
       "Tyrone Power",
       "Marlene Dietrich"
     ],
-    "watchdate": "14.10.2025"
+    "watchdate": ""
   },
   {
     "title": "Yojimbo",
@@ -2986,17 +2986,5 @@
       "Eijirô Tôno"
     ],
     "watchdate": "18.10.2025"
-  },
-  {
-    "title": "Your Name.",
-    "dateOfRelease": "07.04.2017",
-    "genre": "Animation",
-    "rating": 9,
-    "description": "Two teenagers discover a mysterious connection between their lives.",
-    "actors": [
-      "Ryûnosuke Kamiki",
-      "Mone Kamishiraishi"
-    ],
-    "watchdate": "11.11.2026"
   }
 ]

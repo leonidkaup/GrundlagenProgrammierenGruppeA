@@ -71,7 +71,8 @@ def search_movies_by_actor():
             if actor_names.lower() == "b":
                 return
             if not actor_names:
-                raise ValueError("Please enter at least one actor name.")
+                print("Please enter at least one actor name.")
+                continue
 
             actors = [
                 actor.strip()
@@ -83,8 +84,14 @@ def search_movies_by_actor():
             results = search_by_actors(films, actors)
             _print_search_results(results)
             return
-        except (json.JSONDecodeError, KeyError, TypeError, ValueError) as error:
-            print(f"Search failed: {error}")
+        except json.JSONDecodeError:
+            print("Search failed: The saved film list is not valid JSON.")
+        except KeyError:
+            print("Search failed: A film is missing required information.")
+        except TypeError:
+            print("Search failed: A film has an unexpected data format.")
+        except ValueError:
+            print("Search failed: The saved film data contains an invalid value.")
 
 #Leonid Kaup
 def search_movies_by_title():
@@ -96,22 +103,35 @@ def search_movies_by_title():
             if title.lower() == "b":
                 return
             if not title:
-                raise ValueError("Please enter a movie title.")
+                print("Please enter a movie title.")
+                continue
 
             films = get_all_persisted_films()
             results = search_by_title(films, title)
             _print_search_results(results)
             return
-        except (json.JSONDecodeError, KeyError, TypeError, ValueError) as error:
-            print(f"Search failed: {error}")
+        except json.JSONDecodeError:
+            print("Search failed: The saved film list is not valid JSON.")
+        except KeyError:
+            print("Search failed: A film is missing required information.")
+        except TypeError:
+            print("Search failed: A film has an unexpected data format.")
+        except ValueError:
+            print("Search failed: The saved film data contains an invalid value.")
 
 #Leonid Kaup
 def sort_movies_by_rating():
     try:
         films = get_all_persisted_films()
         _print_search_results(sort_list_by_rating(films))
-    except (json.JSONDecodeError, KeyError, TypeError, ValueError) as error:
-        print(f"Sorting failed: {error}")
+    except json.JSONDecodeError:
+        print("Sorting failed: The saved film list is not valid JSON.")
+    except KeyError:
+        print("Sorting failed: A film is missing required information.")
+    except TypeError:
+        print("Sorting failed: A film has an unexpected data format.")
+    except ValueError:
+        print("Sorting failed: The saved film data contains an invalid value.")
 
 #Leonid Kaup
 def show_top_movies():
@@ -121,8 +141,14 @@ def show_top_movies():
             return
         films = get_all_persisted_films()
         _print_search_results(top_films(films, top_number))
-    except (json.JSONDecodeError, KeyError, TypeError, ValueError) as error:
-        print(f"Could not get the top-rated movies: {error}")
+    except json.JSONDecodeError:
+        print("Could not get top-rated movies: The saved film list is not valid JSON.")
+    except KeyError:
+        print("Could not get top-rated movies: A film is missing required information.")
+    except TypeError:
+        print("Could not get top-rated movies: A film has an unexpected data format.")
+    except ValueError:
+        print("Could not get top-rated movies: The saved film data contains an invalid value.")
 
 #Leonid Kaup
 def show_flop_movies():
@@ -132,13 +158,25 @@ def show_flop_movies():
             return
         films = get_all_persisted_films()
         _print_search_results(flop_films(films, flop_number))
-    except (json.JSONDecodeError, KeyError, TypeError, ValueError) as error:
-        print(f"Could not get the lowest-rated movies: {error}")
+    except json.JSONDecodeError:
+        print("Could not get lowest-rated movies: The saved film list is not valid JSON.")
+    except KeyError:
+        print("Could not get lowest-rated movies: A film is missing required information.")
+    except TypeError:
+        print("Could not get lowest-rated movies: A film has an unexpected data format.")
+    except ValueError:
+        print("Could not get lowest-rated movies: The saved film data contains an invalid value.")
 
 #Leonid Kaup
 def show_unrated_movies():
     try:
         films = get_all_persisted_films()
         _print_search_results(unrated_films(films))
-    except (json.JSONDecodeError, KeyError, TypeError, ValueError) as error:
-        print(f"Could not get the unrated movies: {error}")
+    except json.JSONDecodeError:
+        print("Could not get unrated movies: The saved film list is not valid JSON.")
+    except KeyError:
+        print("Could not get unrated movies: A film is missing required information.")
+    except TypeError:
+        print("Could not get unrated movies: A film has an unexpected data format.")
+    except ValueError:
+        print("Could not get unrated movies: The saved film data contains an invalid value.")

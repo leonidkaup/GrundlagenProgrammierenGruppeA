@@ -6,6 +6,7 @@ from xml.sax.saxutils import escape
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+from reportlab.platypus.doctemplate import LayoutError
 
 from models.film_model import Film
 from storage.store_service import (
@@ -127,5 +128,9 @@ def export_films():
             pdf = SimpleDocTemplate(export_file_location, pagesize=A4)
             pdf.build(content)
             print("Export was Successful!")
-        except Exception as error:
-            print("Export was not Successful!", error)
+        except TclError as error:
+            print(f"Export failed: The save dialog could not be opened: {error}")
+        except OSError as error:
+            print(f"Export failed: The PDF file could not be saved: {error}")
+        except (KeyError, TypeError, ValueError, LayoutError) as error:
+            print(f"Export failed: The film data could not be added to the PDF: {error}")

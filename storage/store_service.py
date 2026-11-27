@@ -11,11 +11,11 @@ FILMS_FILE = Path(__file__).resolve().with_name("films.json")
 def get_all_persisted_films():
     return get_films_from_json(FILMS_FILE)
 
+#Leonid Kaup / Léon Albert
 # get films from a json file in general
 def get_films_from_json(file):
     if not file.exists():
         return []
-
     with file.open("r", encoding="utf-8") as file:
             films = json.load(file)
     return films
