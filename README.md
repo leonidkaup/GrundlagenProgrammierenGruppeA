@@ -44,8 +44,23 @@ Explenation:
 Explanation: Importing lists from friends or the internet allows users to add movies without entering every title manually and helps build a comprehensive movie library.
 ## Implementation Documentation
 ### Data Model and Film Object
+For our film data, we chose to create a `Film` class, even though object oriented programming was not required. Each film has a title, release date, genre, rating, description, actors, and watch date. This helps us keep the film data in a clear format and check that it is valid.
 ### Data Validation
+When importing films, the `Film.from_dict` class method checks each film dictionary before it is added to the film list. It checks that the dictionary(json is a list of dicts) has the expected attribute names and that each value has the correct type and format. It also checks whether empty or `null` values are allowed. The method returns a `Film` object when the data is valid.
+
+Here is an example of title validation:
+```
+ if type(data["title"]) != str or len(data["title"]) < 1:
+            raise ValueError(
+                f"Validation failed: title is {data['title']}; "
+                "expected a non-empty string"
+            )
+```
+
+**Class method:** A class method (`@classmethod`) belongs to the `Film` class rather than to one specific film object. It receives the class as `cls`(construction plan). We use `from_dict` to validate a dictionary and create a `Film` object from it, without needing an existing film object.
+
 ### Error Handling
+error handling on service level not persistance level
 ### File Processing
 
 ## Team & Contributions
@@ -75,8 +90,10 @@ Start the application with:
 ```bash
 python main.py
 ```
-
 The application is controlled through an interactive console menu.
+
+## Data
+A default set of data is already delivered under `storage/films.json`. It gets imported automatically when starting up the application.
 
 ## Syntax
 - Variables and functions: lowercase_with_underscores
